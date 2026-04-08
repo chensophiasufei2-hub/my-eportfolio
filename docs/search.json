@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects/sql_analysis.html",
+    "href": "projects/sql_analysis.html",
+    "title": "Retail Sales Analysis (SQL)",
+    "section": "",
+    "text": "[cite_start]Which products perform best, and what patterns can be identified to support better stock and sales decisions? [cite: 36, 41]"
+  },
+  {
+    "objectID": "projects/sql_analysis.html#business-question",
+    "href": "projects/sql_analysis.html#business-question",
+    "title": "Retail Sales Analysis (SQL)",
+    "section": "",
+    "text": "[cite_start]Which products perform best, and what patterns can be identified to support better stock and sales decisions? [cite: 36, 41]"
+  },
+  {
+    "objectID": "projects/sql_analysis.html#sql-implementation",
+    "href": "projects/sql_analysis.html#sql-implementation",
+    "title": "Retail Sales Analysis (SQL)",
+    "section": "SQL Implementation",
+    "text": "SQL Implementation\n[cite_start]Below is the query used to aggregate total sales by category to optimize inventory:\n```sql – Aggregating total sales by category SELECT product_category, SUM(sales_amount) AS total_revenue FROM sales_transactions GROUP BY product_category ORDER BY total_revenue DESC;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "",
+    "text": "Business Analytics Student\n\n\n\n\nI am a Business Studies student at Dublin City University specialising in Business Analytics, with interests in data-driven decision-making, business improvement, and professional development.\n\n\nView Projects Contact Me\n\n\n\n\nExpected Graduation\n\n\n\nTechnical Skills\n\n\n\nProfessional Roles"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "About Me",
+    "text": "About Me\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic profile, developing technical skills, and professional experience in a structured and professional format.\nI am particularly interested in business analytics, customer insight, operational improvement, and using digital tools to support better business decisions."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "Background",
+    "text": "Background\nMy background combines academic learning with practical experience in retail, customer service, and accounting support. These experiences have helped me build strong communication, teamwork, organisation, and problem-solving skills.\nThrough my studies, I have also developed an increasing interest in data analysis, business systems, and how analytics can improve decision-making in real organisations."
+  },
+  {
+    "objectID": "index.html#core-skills",
+    "href": "index.html#core-skills",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "Core Skills",
+    "text": "Core Skills\n\n\nAnalytics Tools\nExcel, SQL, Python, Jamovi\n\n\nBusiness Software\nPowerPoint, Word, Xero\n\n\nProfessional Skills\nCommunication, teamwork, multitasking, time management"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "Projects",
+    "text": "Projects\n\nPark & Polish Strategic Analysis\nMy featured project focuses on the Park & Polish concept and demonstrates how business ideas can be structured, analysed, and presented through data, strategic planning, and visual communication.\nView Project"
+  },
+  {
+    "objectID": "index.html#cv",
+    "href": "index.html#cv",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "CV",
+    "text": "CV\n\nMy CV includes my education, technical skills, and work experience in customer service, retail operations, and accounting support.\nDownload CV"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "Contact Me",
+    "text": "Contact Me\nI am open to future learning opportunities, collaboration, and professional connections. :::\n\nEmail: chensophia0921@gmail.com\nPhone: +353 0876535880\nLocation: Dublin, Ireland\n\n:::"
+  }
+]

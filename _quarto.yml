@@ -1,21 +1,29 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "my-eportfolio"
+  title: "Sophia Chen ePortfolio"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: "#about"
+      - text: "Background"
+        href: "#background"
+      - text: "Skills"
+        href: "#skills"
+      - text: "Projects"
+        href: "#projects"
+      - text: "CV"
+        href: "#cv"
+      - text: "Contact"
+        href: "#contact"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    smooth-scroll: true
