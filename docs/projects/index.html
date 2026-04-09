@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Sophia Chen ePortfolio</title>
+<title>Portfolio – Sophia Chen ePortfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -109,6 +109,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html#skills"> 
 <span class="menu-text">Skills</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html#certs"> 
+<span class="menu-text">Certs</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Portfolio</span>
@@ -157,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Portfolio</h1>
 </div>
 
 
@@ -174,38 +178,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-portfolio" class="level1">
-<h1>Project Portfolio</h1>
-<p>This section presents three portfolio projects that reflect my academic development in marketing analysis, business intelligence, and quantitative risk analysis.</p>
-<section id="project-1-park-polish-marketing-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="project-1-park-polish-marketing-analysis">Project 1 — Park Polish Marketing Analysis</h2>
-<p>This project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.</p>
-<p><a href="../projects/project1_park_polish.html" class="primary-btn">Open Project 1</a></p>
+<section id="project-directory" class="level2">
+<h2 class="anchored" data-anchor-id="project-directory">Project Directory</h2>
+<p>A curated selection of academic and practical work that reflects my development in business analytics, marketing planning, business intelligence, and quantitative analysis.</p>
+<div class="project-listing">
+<div class="project-entry">
+<p><img src="../images/park-1.jpg" class="project-thumb img-fluid"></p>
+<section id="project-1-park-polish" class="level3">
+<h3 class="anchored" data-anchor-id="project-1-park-polish">Project 1 — Park &amp; Polish</h3>
+<p>This project focuses on market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.</p>
+<p><a href="../projects/project1_park_polish.html" class="primary-btn small-btn">Open Project 1</a></p>
 </section>
-<section id="project-2-technova-power-bi-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="project-2-technova-power-bi-analysis">Project 2 — TechNova Power BI Analysis</h2>
-<p>This project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.</p>
-<p><a href="../projects/project2_power_bi.html" class="primary-btn">Open Project 2</a></p>
+</div>
+<div class="project-entry">
+<p><img src="../images/powerbi-1.jpg" class="project-thumb img-fluid"></p>
+<section id="project-2-power-bi" class="level3">
+<h3 class="anchored" data-anchor-id="project-2-power-bi">Project 2 — Power BI</h3>
+<p>This project presents dashboard design, business storytelling, and performance visualisation using Power BI in a collaborative business context.</p>
+<p><a href="../projects/project2_power_bi.html" class="primary-btn small-btn">Open Project 2</a></p>
 </section>
-<section id="project-3-risk-management-and-hedging-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="project-3-risk-management-and-hedging-analysis">Project 3 — Risk Management and Hedging Analysis</h2>
-<p>This project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.</p>
-<p><a href="../projects/project3_risk_management.html" class="primary-btn">Open Project 3</a></p>
+</div>
+<div class="project-entry">
+<p><img src="../images/risk-1.jpg" class="project-thumb img-fluid"></p>
+<section id="project-3-risk-management" class="level3">
+<h3 class="anchored" data-anchor-id="project-3-risk-management">Project 3 — Risk Management</h3>
+<p>This project explores Excel-based quantitative work, risk measures, and hedging analysis through structured financial calculations and visual interpretation.</p>
+<p><a href="../projects/project3_risk_management.html" class="primary-btn small-btn">Open Project 3</a></p>
+</section>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const targets = document.querySelectorAll(
-    ".hero-section, .about-grid, .background-grid, .skills-grid, .portfolio-grid, .media-grid, .custom-footer, h2"
+    ".hero-section, .about-grid, .background-grid, .skills-grid, .portfolio-grid, .media-grid, .custom-footer, h2, .skill-card, .media-card, .stat-box, .project-entry, .project-gallery, .cert-card"
   );
 
-  targets.forEach((el) => {
-    el.classList.add("reveal");
-  });
+  targets.forEach((el) => el.classList.add("reveal"));
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -219,6 +232,75 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+  const navbar = document.querySelector(".navbar");
+  const backToTop = document.getElementById("backToTop");
+  const progressBar = document.getElementById("scrollProgress");
+
+  function updateUI() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+    if (progressBar) progressBar.style.width = progress + "%";
+
+    if (navbar) {
+      if (scrollTop > 20) navbar.classList.add("navbar-scrolled");
+      else navbar.classList.remove("navbar-scrolled");
+    }
+
+    if (backToTop) {
+      if (scrollTop > 400) backToTop.classList.add("show");
+      else backToTop.classList.remove("show");
+    }
+  }
+
+  window.addEventListener("scroll", updateUI);
+  updateUI();
+
+  if (backToTop) {
+    backToTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  const lightbox = document.getElementById("imageLightbox");
+  const lightboxImage = document.getElementById("lightboxImage");
+  const lightboxClose = document.querySelector(".lightbox-close");
+  const triggers = document.querySelectorAll(".lightbox-trigger");
+
+  if (lightbox && lightboxImage && triggers.length) {
+    triggers.forEach((img) => {
+      img.addEventListener("click", function () {
+        lightboxImage.src = img.src;
+        lightboxImage.alt = img.alt || "Expanded image";
+        lightbox.classList.add("show");
+        document.body.style.overflow = "hidden";
+      });
+    });
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("show");
+      document.body.style.overflow = "";
+      setTimeout(() => {
+        lightboxImage.src = "";
+      }, 180);
+    };
+
+    if (lightboxClose) {
+      lightboxClose.addEventListener("click", closeLightbox);
+    }
+
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && lightbox.classList.contains("show")) {
+        closeLightbox();
+      }
+    });
+  }
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

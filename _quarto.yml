@@ -20,6 +20,8 @@ website:
         href: index.qmd#background
       - text: "Skills"
         href: index.qmd#skills
+      - text: "Certs"
+        href: index.qmd#certs
       - text: "Portfolio"
         menu:
           - text: "Project Directory"

@@ -1,3 +1,4 @@
+<div id="scrollProgress"></div>
 ---
 title: ""
 page-layout: full
@@ -120,6 +121,44 @@ ACCA Learning
 :::
 :::
 
+
+## Certs {#certs}
+
+::: {.certs-intro}
+I am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools. These certificates reflect my willingness to keep improving my self skills, technical confidence, and workplace readiness beyond the classroom.
+:::
+
+::: {.certs-grid}
+::: {.cert-card}
+<img src="images/Kubicle-Diploma-Excel.pdf" alt="Kubicle Diploma Excel" class="cert-thumb lightbox-trigger">
+
+### Kubicle Diploma — Excel
+
+This certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills through independent online learning.
+:::
+
+::: {.cert-card}
+<img src="images/Kubicle-Diploma-Word.pdf" alt="Kubicle Diploma Word" class="cert-thumb lightbox-trigger">
+
+### Kubicle Diploma — Word
+
+This certificate supports my professional development in document preparation, communication, and workplace presentation, showing my commitment to building useful office and business support skills.
+:::
+
+::: {.cert-card}
+<img src="images/Kubicle-Diploma-SQL.pdf" alt="Kubicle Diploma SQL" class="cert-thumb lightbox-trigger">
+
+### Kubicle Diploma — SQL
+
+This certificate demonstrates my effort to strengthen database and query skills through structured online learning, supporting my longer-term development in analytics and data-focused work.
+:::
+:::
+
+<div id="imageLightbox" class="image-lightbox">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <img id="lightboxImage" class="lightbox-image" src="" alt="Expanded certificate preview">
+</div>
+
 ## Portfolio {#projects}
 
 ::: {.portfolio-grid}
@@ -189,11 +228,25 @@ Dublin, Ireland
 ::: {.footer-block .footer-center}
 #### Connect
 
-::: {.social-icons}
-[DCU](mailto:chen.sophiasufei2@mail.dcu.ie){.social-link}
-[in](https://www.linkedin.com/in/sophiasufei-chen-389591233){.social-link target="_blank"}
-[IG](https://www.instagram.com/sooofeiii?igsh=cXkwYWNnMG9iNHU4&utm_source=qr){.social-link target="_blank"}
-:::
+<div class="social-icons">
+  <a href="mailto:chen.sophiasufei2@mail.dcu.ie" class="social-link" aria-label="DCU Email" title="DCU Email">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="social-svg">
+      <path d="M3 5h18v14H3V5zm2 2v.5l7 5 7-5V7H5zm14 10V9.3l-7 5-7-5V17h14z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <a href="https://www.linkedin.com/in/sophiasufei-chen-389591233" target="_blank" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="social-svg">
+      <path d="M6.94 8.5a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 0 1 0 3.12zM5.5 10h2.88v8.5H5.5V10zm4.68 0h2.76v1.16h.04c.38-.73 1.32-1.5 2.72-1.5 2.9 0 3.44 1.9 3.44 4.36v4.48h-2.88v-3.97c0-.95-.02-2.17-1.32-2.17-1.32 0-1.52 1.03-1.52 2.1v4.04h-2.88V10z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <a href="https://www.instagram.com/sooofeiii?igsh=cXkwYWNnMG9iNHU4&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram" title="Instagram">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="social-svg">
+      <path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3zm0 1.8A2.7 2.7 0 0 0 4.8 7.5v9a2.7 2.7 0 0 0 2.7 2.7h9a2.7 2.7 0 0 0 2.7-2.7v-9a2.7 2.7 0 0 0-2.7-2.7h-9zm9.45 1.35a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1zM12 7.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 1.8A2.7 2.7 0 1 0 14.7 12 2.7 2.7 0 0 0 12 9.3z" fill="currentColor"/>
+    </svg>
+  </a>
+</div>
 :::
 
 ::: {.footer-block .footer-right}
@@ -203,3 +256,12 @@ Designed by Sophia Sufei Chen | 2026
 :::
 :::
 :::
+
+
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+
+<div id="imageLightbox" class="image-lightbox">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <img id="lightboxImage" class="lightbox-image" src="" alt="Expanded certificate preview">
+</div>

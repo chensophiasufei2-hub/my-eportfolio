@@ -109,6 +109,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html#skills"> 
 <span class="menu-text">Skills</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#certs"> 
+<span class="menu-text">Certs</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Portfolio</span>
@@ -223,12 +227,10 @@ ul.task-list li input[type="checkbox"] {
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const targets = document.querySelectorAll(
-    ".hero-section, .about-grid, .background-grid, .skills-grid, .portfolio-grid, .media-grid, .custom-footer, h2"
+    ".hero-section, .about-grid, .background-grid, .skills-grid, .portfolio-grid, .media-grid, .custom-footer, h2, .skill-card, .media-card, .stat-box, .project-entry, .project-gallery, .cert-card"
   );
 
-  targets.forEach((el) => {
-    el.classList.add("reveal");
-  });
+  targets.forEach((el) => el.classList.add("reveal"));
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -242,6 +244,75 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+  const navbar = document.querySelector(".navbar");
+  const backToTop = document.getElementById("backToTop");
+  const progressBar = document.getElementById("scrollProgress");
+
+  function updateUI() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+    if (progressBar) progressBar.style.width = progress + "%";
+
+    if (navbar) {
+      if (scrollTop > 20) navbar.classList.add("navbar-scrolled");
+      else navbar.classList.remove("navbar-scrolled");
+    }
+
+    if (backToTop) {
+      if (scrollTop > 400) backToTop.classList.add("show");
+      else backToTop.classList.remove("show");
+    }
+  }
+
+  window.addEventListener("scroll", updateUI);
+  updateUI();
+
+  if (backToTop) {
+    backToTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  const lightbox = document.getElementById("imageLightbox");
+  const lightboxImage = document.getElementById("lightboxImage");
+  const lightboxClose = document.querySelector(".lightbox-close");
+  const triggers = document.querySelectorAll(".lightbox-trigger");
+
+  if (lightbox && lightboxImage && triggers.length) {
+    triggers.forEach((img) => {
+      img.addEventListener("click", function () {
+        lightboxImage.src = img.src;
+        lightboxImage.alt = img.alt || "Expanded image";
+        lightbox.classList.add("show");
+        document.body.style.overflow = "hidden";
+      });
+    });
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("show");
+      document.body.style.overflow = "";
+      setTimeout(() => {
+        lightboxImage.src = "";
+      }, 180);
+    };
+
+    if (lightboxClose) {
+      lightboxClose.addEventListener("click", closeLightbox);
+    }
+
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && lightbox.classList.contains("show")) {
+        closeLightbox();
+      }
+    });
+  }
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

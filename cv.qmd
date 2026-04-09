@@ -2,50 +2,128 @@
 title: "CV"
 ---
 
+::: {.cv-page-header}
+::: {.cv-page-left}
 ## Curriculum Vitae
 
-[Download My CV](cv.pdf){target="_blank"}
+::: {.cv-page-subtitle}
+A concise overview of my academic background, internship experience, technical skills, and professional development.
+:::
 
-## Profile
+[Download CV PDF](cv.pdf){.primary-btn target="_blank"}
+:::
 
-Motivated Business Studies student specialising in **Business Analytics**, with practical experience in customer service, retail operations, and accounting support. Interested in data-informed decision-making, business improvement, and professional development in analytical and commercial environments.
+::: {.cv-page-right}
+**Sophia Sufei Chen**  
+Final Year Business Studies Student  
+Dublin City University  
+
+**Specialisation:** Business Analytics & Marketing Planning  
+**Email:** [chen.sophiasufei2@mail.dcu.ie](mailto:chen.sophiasufei2@mail.dcu.ie)  
+**LinkedIn:** [Sophia Sufei Chen](https://www.linkedin.com/in/sophiasufei-chen-389591233)  
+**Location:** Dublin, Ireland
+:::
+:::
+
+::: {.cv-highlights}
+::: {.cv-highlight-item}
+### Final Year
+Business Studies Student
+:::
+
+::: {.cv-highlight-item}
+### Focus
+Business Analytics & Marketing Planning
+:::
+
+::: {.cv-highlight-item}
+### ACCA
+In Progress
+:::
+
+::: {.cv-highlight-item}
+### Internship
+Accounting Assistant Intern
+:::
+:::
+
 
 ## Education
 
+::: {.cv-block}
 ### Dublin City University
+
 **Business Studies**  
-Specialism: **Business Analytics**  
-Expected graduation: **2026**
+Final Year Student  
+Specialising in **Business Analytics** and **Marketing Planning**
 
-## Experience
+**Expected Graduation:** 2026
 
-### Sales Assistant  
-**Allied Imports Ltd.**  
-June 2024 – Present
+My degree has provided me with a strong academic foundation in business analysis, decision-making, marketing, and accounting-related study. It has also helped me build confidence in structured problem-solving, analytical thinking, and professional communication.
+:::
 
-- Delivered customer service through product recommendations and personalised assistance
-- Managed inventory, restocking, and product displays
-- Processed transactions, returns, and exchanges efficiently
+## Professional Experience
 
-### Accounting Assistant Intern  
-**PTB Accounting Ltd.**  
-January 2026 – Present
+::: {.cv-block}
+### Accounting Assistant Intern — PTB Accounting LTD
 
-- Assisted with daily accounting and administrative tasks
-- Organised invoices, records, and financial documentation
-- Supported accurate data entry and information management
+I am currently working as an Accounting Assistant Intern, where I support day-to-day accounting and administrative tasks. This role is helping me gain practical experience in financial documentation, organisation, and business operations.
 
-## Technical Skills
+Through this internship, I have strengthened my attention to detail, workplace communication, responsibility, and understanding of professional office processes. It has also helped me connect academic knowledge with practical business experience.
+:::
 
+## Technical and Professional Skills
+
+::: {.cv-skill-columns}
+::: {.cv-block}
+### Technical Skills
 - Excel
 - SQL
 - Python
 - Jamovi
-- Xero
-- PowerPoint
+- Power BI
 - Word
+- PowerPoint
+- Xero
+:::
 
-## Languages
+::: {.cv-block}
+### Professional Skills
+- Communication
+- Teamwork
+- Organisation
+- Time management
+- Multitasking
+- Problem-solving
+- Professional presentation
+- Analytical thinking
+:::
+:::
 
-- **English** — Fluent
-- **Mandarin** — Native
+## Certifications and Development
+
+::: {.cv-skill-columns}
+::: {.cv-block}
+### ACCA
+I am currently pursuing ACCA as part of my professional development. This is strengthening my understanding of accounting, finance, and professional practice, while supporting my long-term readiness for finance-related and business support roles.
+:::
+
+::: {.cv-block}
+### Continuous Learning
+Alongside my university studies, I continue to develop practical skills through independent online learning, portfolio work, and digital training in analytics, business software, and communication.
+:::
+:::
+
+## Portfolio Relevance
+
+::: {.cv-block}
+My portfolio includes project work in:
+
+- Market and business analysis
+- Dashboard and visual reporting
+- Quantitative risk analysis
+- Structured Excel and data work
+- Professional communication and presentation
+
+[Open Portfolio](projects/index.html){.secondary-btn}
+:::

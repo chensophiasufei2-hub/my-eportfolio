@@ -60,49 +60,49 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Download My CV"
+    "text": "A concise overview of my academic background, internship experience, technical skills, and professional development.\n\nDownload CV PDF\n\n\nSophia Sufei Chen\nFinal Year Business Studies Student\nDublin City University\nSpecialisation: Business Analytics & Marketing Planning\nEmail: chen.sophiasufei2@mail.dcu.ie\nLinkedIn: Sophia Sufei Chen\nLocation: Dublin, Ireland"
   },
   {
     "objectID": "cv.html#curriculum-vitae",
     "href": "cv.html#curriculum-vitae",
     "title": "CV",
     "section": "",
-    "text": "Download My CV"
-  },
-  {
-    "objectID": "cv.html#profile",
-    "href": "cv.html#profile",
-    "title": "CV",
-    "section": "Profile",
-    "text": "Profile\nMotivated Business Studies student specialising in Business Analytics, with practical experience in customer service, retail operations, and accounting support. Interested in data-informed decision-making, business improvement, and professional development in analytical and commercial environments."
+    "text": "A concise overview of my academic background, internship experience, technical skills, and professional development.\n\nDownload CV PDF"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "CV",
     "section": "Education",
-    "text": "Education\n\nDublin City University\nBusiness Studies\nSpecialism: Business Analytics\nExpected graduation: 2026"
+    "text": "Education\n\nDublin City University\nBusiness Studies\nFinal Year Student\nSpecialising in Business Analytics and Marketing Planning\nExpected Graduation: 2026\nMy degree has provided me with a strong academic foundation in business analysis, decision-making, marketing, and accounting-related study. It has also helped me build confidence in structured problem-solving, analytical thinking, and professional communication."
   },
   {
-    "objectID": "cv.html#experience",
-    "href": "cv.html#experience",
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
     "title": "CV",
-    "section": "Experience",
-    "text": "Experience\n\nSales Assistant\nAllied Imports Ltd.\nJune 2024 – Present\n\nDelivered customer service through product recommendations and personalised assistance\nManaged inventory, restocking, and product displays\nProcessed transactions, returns, and exchanges efficiently\n\n\n\nAccounting Assistant Intern\nPTB Accounting Ltd.\nJanuary 2026 – Present\n\nAssisted with daily accounting and administrative tasks\nOrganised invoices, records, and financial documentation\nSupported accurate data entry and information management"
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nAccounting Assistant Intern — PTB Accounting LTD\nI am currently working as an Accounting Assistant Intern, where I support day-to-day accounting and administrative tasks. This role is helping me gain practical experience in financial documentation, organisation, and business operations.\nThrough this internship, I have strengthened my attention to detail, workplace communication, responsibility, and understanding of professional office processes. It has also helped me connect academic knowledge with practical business experience."
   },
   {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
+    "objectID": "cv.html#technical-and-professional-skills",
+    "href": "cv.html#technical-and-professional-skills",
     "title": "CV",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nExcel\nSQL\nPython\nJamovi\nXero\nPowerPoint\nWord"
+    "section": "Technical and Professional Skills",
+    "text": "Technical and Professional Skills\n\n\nTechnical Skills\n\nExcel\nSQL\nPython\nJamovi\nPower BI\nWord\nPowerPoint\nXero\n\n\n\nProfessional Skills\n\nCommunication\nTeamwork\nOrganisation\nTime management\nMultitasking\nProblem-solving\nProfessional presentation\nAnalytical thinking"
   },
   {
-    "objectID": "cv.html#languages",
-    "href": "cv.html#languages",
+    "objectID": "cv.html#certifications-and-development",
+    "href": "cv.html#certifications-and-development",
     "title": "CV",
-    "section": "Languages",
-    "text": "Languages\n\nEnglish — Fluent\nMandarin — Native"
+    "section": "Certifications and Development",
+    "text": "Certifications and Development\n\n\nACCA\nI am currently pursuing ACCA as part of my professional development. This is strengthening my understanding of accounting, finance, and professional practice, while supporting my long-term readiness for finance-related and business support roles.\n\n\nContinuous Learning\nAlongside my university studies, I continue to develop practical skills through independent online learning, portfolio work, and digital training in analytics, business software, and communication."
+  },
+  {
+    "objectID": "cv.html#portfolio-relevance",
+    "href": "cv.html#portfolio-relevance",
+    "title": "CV",
+    "section": "Portfolio Relevance",
+    "text": "Portfolio Relevance\n\nMy portfolio includes project work in:\n\nMarket and business analysis\nDashboard and visual reporting\nQuantitative risk analysis\nStructured Excel and data work\nProfessional communication and presentation\n\nOpen Portfolio"
   },
   {
     "objectID": "about.html",
@@ -117,13 +117,6 @@
     "title": "Sophia Chen ePortfolio",
     "section": "",
     "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SOPHIA SUFEI CHEN",
-    "section": "",
-    "text": "Business Analytics Student | DCU\n\n\n\n\nAspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English\n\n\nView Portfolio Download CV LinkedIn\n\n\n\n\nExpected Graduation\n\n\n\nIn Progress\n\n\n\nInternship Experience\n\n\n\nLanguages"
   },
   {
     "objectID": "index.html#about",
@@ -147,6 +140,13 @@
     "text": "Core Skills\n\n\nAnalytics Tools\nExcel\nSQL\nPython\nJamovi\n\n\nBusiness Tools\nPowerPoint\nWord\nXero\n\n\nProfessional Skills\nCommunication\nTeamwork\nMultitasking\nTime Management\n\n\nAccounting & Finance\nAccounting Support\nFinancial Documentation\nACCA Learning"
   },
   {
+    "objectID": "index.html#certs",
+    "href": "index.html#certs",
+    "title": "SOPHIA SUFEI CHEN",
+    "section": "Certs",
+    "text": "Certs\n\nI am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools. These certificates reflect my willingness to keep improving my self skills, technical confidence, and workplace readiness beyond the classroom.\n\n\n\n\n\nKubicle Diploma — Excel\nThis certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills through independent online learning.\n\n\n\n\n\nKubicle Diploma — Word\nThis certificate supports my professional development in document preparation, communication, and workplace presentation, showing my commitment to building useful office and business support skills.\n\n\n\n\n\nKubicle Diploma — SQL\nThis certificate demonstrates my effort to strengthen database and query skills through structured online learning, supporting my longer-term development in analytics and data-focused work.\n\n\n\n\n×"
+  },
+  {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "SOPHIA SUFEI CHEN",
@@ -158,7 +158,7 @@
     "href": "index.html#media",
     "title": "SOPHIA SUFEI CHEN",
     "section": "Media",
-    "text": "Media\n\nA curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.\n\n\n\n\n\n\n\n\nBusiness Analytics\nThis video gives a clear introduction to business analytics and helps explain how data can support better business decisions.\n\n\n\n\n\n\n\n\nACCA Learning\nThis resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.\n\n\n\n\n\n\n\n\nEnglish Learning\nThis English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.\n\n\n\n\n\n\nContact\nDublin, Ireland\nchen.sophiasufei2@mail.dcu.ie\n\n\nConnect\n\nDCU in IG\n\n\n\nPortfolio\nDesigned by Sophia Sufei Chen | 2026"
+    "text": "Media\n\nA curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.\n\n\n\n\n\n\n\n\nBusiness Analytics\nThis video gives a clear introduction to business analytics and helps explain how data can support better business decisions.\n\n\n\n\n\n\n\n\nACCA Learning\nThis resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.\n\n\n\n\n\n\n\n\nEnglish Learning\nThis English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.\n\n\n\n\n\n\nContact\nDublin, Ireland\nchen.sophiasufei2@mail.dcu.ie\n\n\nConnect\n\n    \n    \n    \n\n\n\nPortfolio\nDesigned by Sophia Sufei Chen | 2026\n\n\n\n\n↑\n\n\n×"
   },
   {
     "objectID": "about_more.html",
@@ -184,30 +184,16 @@
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
-    "title": "Projects",
+    "title": "Portfolio",
     "section": "",
-    "text": "This section presents three portfolio projects that reflect my academic development in marketing analysis, business intelligence, and quantitative risk analysis.\n\n\nThis project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.\nOpen Project 1\n\n\n\nThis project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.\nOpen Project 2\n\n\n\nThis project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.\nOpen Project 3"
+    "text": "A curated selection of academic and practical work that reflects my development in business analytics, marketing planning, business intelligence, and quantitative analysis.\n\n\n\n\n\nThis project focuses on market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.\nOpen Project 1\n\n\n\n\n\n\nThis project presents dashboard design, business storytelling, and performance visualisation using Power BI in a collaborative business context.\nOpen Project 2\n\n\n\n\n\n\nThis project explores Excel-based quantitative work, risk measures, and hedging analysis through structured financial calculations and visual interpretation.\nOpen Project 3"
   },
   {
-    "objectID": "projects/index.html#project-1-park-polish-marketing-analysis",
-    "href": "projects/index.html#project-1-park-polish-marketing-analysis",
-    "title": "Projects",
+    "objectID": "projects/index.html#project-directory",
+    "href": "projects/index.html#project-directory",
+    "title": "Portfolio",
     "section": "",
-    "text": "This project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.\nOpen Project 1"
-  },
-  {
-    "objectID": "projects/index.html#project-2-technova-power-bi-analysis",
-    "href": "projects/index.html#project-2-technova-power-bi-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "This project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.\nOpen Project 2"
-  },
-  {
-    "objectID": "projects/index.html#project-3-risk-management-and-hedging-analysis",
-    "href": "projects/index.html#project-3-risk-management-and-hedging-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "This project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.\nOpen Project 3"
+    "text": "A curated selection of academic and practical work that reflects my development in business analytics, marketing planning, business intelligence, and quantitative analysis.\n\n\n\n\n\nThis project focuses on market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.\nOpen Project 1\n\n\n\n\n\n\nThis project presents dashboard design, business storytelling, and performance visualisation using Power BI in a collaborative business context.\nOpen Project 2\n\n\n\n\n\n\nThis project explores Excel-based quantitative work, risk measures, and hedging analysis through structured financial calculations and visual interpretation.\nOpen Project 3"
   },
   {
     "objectID": "projects/project2_power_bi.html",

@@ -1,25 +1,40 @@
 ---
-title: "Projects"
+title: "Portfolio"
 ---
 
-# Project Portfolio
 
-This section presents three portfolio projects that reflect my academic development in marketing analysis, business intelligence, and quantitative risk analysis.
+## Project Directory
 
-## Project 1 — Park Polish Marketing Analysis
+A curated selection of academic and practical work that reflects my development in business analytics, marketing planning, business intelligence, and quantitative analysis.
 
-This project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.
+::: {.project-listing}
+::: {.project-entry}
+![](../images/park-1.jpg){.project-thumb}
 
-[Open Project 1](project1_park_polish.qmd){.primary-btn}
+### Project 1 — Park & Polish
 
-## Project 2 — TechNova Power BI Analysis
+This project focuses on market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.
 
-This project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.
+[Open Project 1](project1_park_polish.qmd){.primary-btn .small-btn}
+:::
 
-[Open Project 2](project2_power_bi.qmd){.primary-btn}
+::: {.project-entry}
+![](../images/powerbi-1.jpg){.project-thumb}
 
-## Project 3 — Risk Management and Hedging Analysis
+### Project 2 — Power BI
 
-This project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.
+This project presents dashboard design, business storytelling, and performance visualisation using Power BI in a collaborative business context.
 
-[Open Project 3](project3_risk_management.qmd){.primary-btn}
+[Open Project 2](project2_power_bi.qmd){.primary-btn .small-btn}
+:::
+
+::: {.project-entry}
+![](../images/risk-1.jpg){.project-thumb}
+
+### Project 3 — Risk Management
+
+This project explores Excel-based quantitative work, risk measures, and hedging analysis through structured financial calculations and visual interpretation.
+
+[Open Project 3](project3_risk_management.qmd){.primary-btn .small-btn}
+:::
+:::
