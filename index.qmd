@@ -37,6 +37,11 @@ In Progress
 ### PTB
 Internship Experience
 :::
+
+::: {.stat-box}
+### 2
+Languages
+:::
 :::
 :::
 
@@ -60,6 +65,8 @@ I am a final year Business Studies student at Dublin City University, specialisi
 In addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.
 
 I am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.
+
+[More About Me](about_more.html){.secondary-btn .small-btn}
 :::
 :::
 
@@ -84,22 +91,32 @@ Through my studies, I have also developed growing confidence in business systems
 ::: {.skills-grid}
 ::: {.skill-card}
 ### Analytics Tools
-Excel, SQL, Python, Jamovi
+Excel  
+SQL  
+Python  
+Jamovi
 :::
 
 ::: {.skill-card}
 ### Business Tools
-PowerPoint, Word, Xero
+PowerPoint  
+Word  
+Xero
 :::
 
 ::: {.skill-card}
 ### Professional Skills
-Communication, teamwork, multitasking, time management
+Communication  
+Teamwork  
+Multitasking  
+Time Management
 :::
 
 ::: {.skill-card}
 ### Accounting & Finance
-Accounting support, financial documentation, ACCA learning
+Accounting Support  
+Financial Documentation  
+ACCA Learning
 :::
 :::
 
@@ -113,7 +130,7 @@ This portfolio highlights three main projects that reflect different dimensions 
 
 The projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.
 
-[Open Portfolio](projects/index.qmd){.primary-btn .small-btn}
+[Open Portfolio](projects/index.html){.primary-btn .small-btn}
 :::
 
 ::: {.portfolio-image}

@@ -263,20 +263,25 @@ p {
 }
 
 .skill-card {
-  background: #fff;
-  border: 1px solid #e7e7e7;
-  padding: 28px 24px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background: transparent;
+  border: none;
+  border-top: 2px solid #1f1f1f;
+  padding: 18px 0 0;
+  transition: transform 0.25s ease;
 }
 
 .skill-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
 }
 
 .skill-card h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 21px;
+  margin-bottom: 14px;
+}
+
+.skill-card p,
+.skill-card {
+  color: #222;
 }
 
 .portfolio-grid {
@@ -518,4 +523,59 @@ p {
   font-size: 16px;
   line-height: 1.7;
   min-height: 110px;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(170px, 1fr));
+  gap: 18px;
+  max-width: 560px;
+  margin-top: 36px;
+}
+
+@media (max-width: 900px) {
+  .hero-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.about-text .secondary-btn {
+  margin-top: 12px;
+}
+
+/* more about me page */
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px;
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+
+.more-card {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.more-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.more-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+  border: 1px solid #e7e7e7;
+}
+
+@media (max-width: 900px) {
+  .more-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }

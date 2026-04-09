@@ -105,18 +105,32 @@
     "text": "Languages\n\nEnglish — Fluent\nMandarin — Native"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sophia Chen ePortfolio",
+    "section": "",
+    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Sophia Chen ePortfolio",
+    "section": "",
+    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SOPHIA SUFEI CHEN",
     "section": "",
-    "text": "Business Analytics Student | DCU\n\n\n\n\nAspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English\n\n\nView Portfolio Download CV LinkedIn\n\n\n\n\nExpected Graduation\n\n\n\nIn Progress\n\n\n\nInternship Experience"
+    "text": "Business Analytics Student | DCU\n\n\n\n\nAspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English\n\n\nView Portfolio Download CV LinkedIn\n\n\n\n\nExpected Graduation\n\n\n\nIn Progress\n\n\n\nInternship Experience\n\n\n\nLanguages"
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "SOPHIA SUFEI CHEN",
     "section": "About Me",
-    "text": "About Me\n\n\n\n\n\nProfessional Profile\nI am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.\nIn addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.\nI am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment."
+    "text": "About Me\n\n\n\n\n\nProfessional Profile\nI am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.\nIn addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.\nI am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.\nMore About Me"
   },
   {
     "objectID": "index.html#background",
@@ -130,7 +144,7 @@
     "href": "index.html#skills",
     "title": "SOPHIA SUFEI CHEN",
     "section": "Core Skills",
-    "text": "Core Skills\n\n\nAnalytics Tools\nExcel, SQL, Python, Jamovi\n\n\nBusiness Tools\nPowerPoint, Word, Xero\n\n\nProfessional Skills\nCommunication, teamwork, multitasking, time management\n\n\nAccounting & Finance\nAccounting support, financial documentation, ACCA learning"
+    "text": "Core Skills\n\n\nAnalytics Tools\nExcel\nSQL\nPython\nJamovi\n\n\nBusiness Tools\nPowerPoint\nWord\nXero\n\n\nProfessional Skills\nCommunication\nTeamwork\nMultitasking\nTime Management\n\n\nAccounting & Finance\nAccounting Support\nFinancial Documentation\nACCA Learning"
   },
   {
     "objectID": "index.html#projects",
@@ -147,18 +161,25 @@
     "text": "Media\n\nA curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.\n\n\n\n\n\n\n\n\nBusiness Analytics\nThis video gives a clear introduction to business analytics and helps explain how data can support better business decisions.\n\n\n\n\n\n\n\n\nACCA Learning\nThis resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.\n\n\n\n\n\n\n\n\nEnglish Learning\nThis English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.\n\n\n\n\n\n\nContact\nDublin, Ireland\nchen.sophiasufei2@mail.dcu.ie\n\n\nConnect\n\nDCU in IG\n\n\n\nPortfolio\nDesigned by Sophia Sufei Chen | 2026"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sophia Chen ePortfolio",
+    "objectID": "about_more.html",
+    "href": "about_more.html",
+    "title": "More About Me",
     "section": "",
-    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+    "text": "I have developed a growing interest in advanced Python learning as part of my academic and professional development. Python has become one of the most valuable tools in my studies because it helps me move beyond basic theory and work more practically with data, logic, and problem-solving. Through learning Python, I have improved my understanding of data cleaning, simple automation, structured analysis, and presenting results in a more efficient way.\nPython is especially important to me because it connects strongly with business analytics. It supports the way I think through problems step by step and encourages accuracy, structure, and logical reasoning. As I continue learning, I hope to strengthen my confidence in applying Python to more business-focused tasks, including analysis, reporting, and decision support.\n\n\n\n\n\nLearning Python has helped me understand how analytical thinking can be applied in a practical and structured way. I have become more comfortable with logic, syntax, and breaking down problems into manageable steps. This has supported my wider development in business analytics and strengthened my confidence in working with data-based tasks.\n\n\n\n\n\n\nAdvanced Python learning also represents personal progress in my technical development. As I continue learning, I am improving both my problem-solving approach and my confidence with digital tools. It is a skill that supports my academic work now and will also be valuable in future business and analytical roles."
   },
   {
-    "objectID": "about.html#about",
-    "href": "about.html#about",
-    "title": "Sophia Chen ePortfolio",
+    "objectID": "about_more.html#advanced-python-learning",
+    "href": "about_more.html#advanced-python-learning",
+    "title": "More About Me",
     "section": "",
-    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+    "text": "I have developed a growing interest in advanced Python learning as part of my academic and professional development. Python has become one of the most valuable tools in my studies because it helps me move beyond basic theory and work more practically with data, logic, and problem-solving. Through learning Python, I have improved my understanding of data cleaning, simple automation, structured analysis, and presenting results in a more efficient way.\nPython is especially important to me because it connects strongly with business analytics. It supports the way I think through problems step by step and encourages accuracy, structure, and logical reasoning. As I continue learning, I hope to strengthen my confidence in applying Python to more business-focused tasks, including analysis, reporting, and decision support.\n\n\n\n\n\nLearning Python has helped me understand how analytical thinking can be applied in a practical and structured way. I have become more comfortable with logic, syntax, and breaking down problems into manageable steps. This has supported my wider development in business analytics and strengthened my confidence in working with data-based tasks.\n\n\n\n\n\n\nAdvanced Python learning also represents personal progress in my technical development. As I continue learning, I am improving both my problem-solving approach and my confidence with digital tools. It is a skill that supports my academic work now and will also be valuable in future business and analytical roles."
+  },
+  {
+    "objectID": "about_more.html#hobbies-pilates-and-swimming",
+    "href": "about_more.html#hobbies-pilates-and-swimming",
+    "title": "More About Me",
+    "section": "Hobbies: Pilates and Swimming",
+    "text": "Hobbies: Pilates and Swimming\nOutside of study and work, I value hobbies that help me stay healthy, focused, and balanced. Pilates and swimming are two of the activities I enjoy most. They allow me to maintain both physical wellbeing and mental clarity, which is important when balancing university work, internship responsibilities, and professional development. I find that regular movement helps me manage stress more effectively and stay disciplined in other areas of life.\nThese hobbies also reflect qualities that are important to me more broadly: consistency, self-improvement, and resilience. Both Pilates and swimming require patience and steady progress, and I enjoy that sense of routine and personal development. For me, these activities are not only hobbies but also part of maintaining a productive and positive lifestyle.\n\n\n\n\nPilates\nPilates helps me improve flexibility, posture, balance, and concentration. I enjoy it because it combines physical movement with control and discipline. It is a useful way for me to stay active while also building focus and consistency, which are qualities that support both my studies and my work.\n\n\n\n\n\nSwimming\nSwimming is another activity that I enjoy because it helps me feel refreshed, energised, and mentally clear. It gives me time to reset and maintain a healthy routine. I value swimming not only as exercise, but also as a way to support overall wellbeing and balance in a busy academic and professional schedule."
   },
   {
     "objectID": "projects/index.html",

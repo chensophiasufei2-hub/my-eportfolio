@@ -4,11 +4,9 @@ project:
   render:
     - index.qmd
     - about.qmd
+    - about_more.qmd
     - cv.qmd
-    - projects/index.qmd
-    - projects/project1_park_polish.qmd
-    - projects/project2_power_bi.qmd
-    - projects/project3_risk_management.qmd
+    - projects/*.qmd
 
 website:
   title: "Sophia Chen ePortfolio"
