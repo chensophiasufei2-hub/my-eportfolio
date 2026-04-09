@@ -1,0 +1,25 @@
+---
+title: "Projects"
+---
+
+# Project Portfolio
+
+This section presents three portfolio projects that reflect my academic development in marketing analysis, business intelligence, and quantitative risk analysis.
+
+## Project 1 — Park Polish Marketing Analysis
+
+This project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.
+
+[Open Project 1](project1_park_polish.qmd){.primary-btn}
+
+## Project 2 — TechNova Power BI Analysis
+
+This project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.
+
+[Open Project 2](project2_power_bi.qmd){.primary-btn}
+
+## Project 3 — Risk Management and Hedging Analysis
+
+This project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.
+
+[Open Project 3](project3_risk_management.qmd){.primary-btn}

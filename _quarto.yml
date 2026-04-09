@@ -1,6 +1,14 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
+    - cv.qmd
+    - projects/index.qmd
+    - projects/project1_park_polish.qmd
+    - projects/project2_power_bi.qmd
+    - projects/project3_risk_management.qmd
 
 website:
   title: "Sophia Chen ePortfolio"
@@ -9,21 +17,30 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "About"
-        href: "#about"
+        href: index.qmd#about
       - text: "Background"
-        href: "#background"
+        href: index.qmd#background
       - text: "Skills"
-        href: "#skills"
-      - text: "Projects"
-        href: "#projects"
+        href: index.qmd#skills
+      - text: "Portfolio"
+        menu:
+          - text: "Project Directory"
+            href: projects/index.qmd
+          - text: "Project 1 — Park Polish"
+            href: projects/project1_park_polish.qmd
+          - text: "Project 2 — Power BI"
+            href: projects/project2_power_bi.qmd
+          - text: "Project 3 — Risk Management"
+            href: projects/project3_risk_management.qmd
       - text: "CV"
-        href: "#cv"
+        href: cv.qmd
       - text: "Contact"
-        href: "#contact"
+        href: index.qmd#contact
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: scripts.html
     toc: false
     smooth-scroll: true

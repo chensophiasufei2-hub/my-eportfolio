@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Retail Sales Analysis (SQL) – Sophia Chen ePortfolio</title>
+<title>Project 3 — Risk Management and Hedging Analysis – Sophia Chen ePortfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -98,27 +98,46 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../#about"> 
+    <a class="nav-link" href="../index.html#about"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../#background"> 
+    <a class="nav-link" href="../index.html#background"> 
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../#skills"> 
+    <a class="nav-link" href="../index.html#skills"> 
 <span class="menu-text">Skills</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../#projects"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Portfolio</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-portfolio">    
+        <li>
+    <a class="dropdown-item" href="../projects/index.html">
+ <span class="dropdown-text">Project Directory</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/project1_park_polish.html">
+ <span class="dropdown-text">Project 1 — Park Polish</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/project2_power_bi.html">
+ <span class="dropdown-text">Project 2 — Power BI</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/project3_risk_management.html">
+ <span class="dropdown-text">Project 3 — Risk Management</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../#cv"> 
+    <a class="nav-link" href="../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../#contact"> 
+    <a class="nav-link" href="../index.html#contact"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -138,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Retail Sales Analysis (SQL)</h1>
+<h1 class="title">Project 3 — Risk Management and Hedging Analysis</h1>
 </div>
 
 
@@ -155,19 +174,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="business-question" class="level2">
-<h2 class="anchored" data-anchor-id="business-question">Business Question</h2>
-<p>[cite_start]Which products perform best, and what patterns can be identified to support better stock and sales decisions? [cite: 36, 41]</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual evidence can support financial interpretation. It represents the quantitative side of my portfolio and demonstrates that I can work with risk measures, structured calculations, and visual presentation in a disciplined and analytical way.</p>
+<p><img src="../images/risk-1.jpg" class="img-fluid"></p>
 </section>
-<section id="sql-implementation" class="level2">
-<h2 class="anchored" data-anchor-id="sql-implementation">SQL Implementation</h2>
-<p>[cite_start]Below is the query used to aggregate total sales by category to optimize inventory:</p>
-<p>```sql – Aggregating total sales by category SELECT product_category, SUM(sales_amount) AS total_revenue FROM sales_transactions GROUP BY product_category ORDER BY total_revenue DESC;</p>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>This project helped me develop a much deeper understanding of financial risk and the value of structured quantitative analysis. I learned that risk is not only about overall volatility, but also about downside exposure, portfolio interaction, and how different methods may produce different interpretations. Working through this project improved my confidence in handling more technical material and explaining it clearly. I also realised how important it is to connect calculations with interpretation, rather than presenting numbers without context. This project is valuable in my portfolio because it shows that I can work independently with analytical detail, financial reasoning, and visual evidence in a way that is both technical and understandable.</p>
+<p><img src="../images/risk-2.jpg" class="img-fluid"></p>
+</section>
+<section id="skills-gained" class="level2">
+<h2 class="anchored" data-anchor-id="skills-gained">Skills Gained</h2>
+<p>The main skills I gained from this project are Excel-based quantitative analysis, financial interpretation, and visual communication of technical results. I improved my use of Excel for structured calculations and became more confident in working with return-based measures, risk comparison, and numerical reasoning. I also strengthened my ability to interpret tables and charts in a meaningful way instead of treating them as isolated outputs. In addition, this project improved my confidence in explaining technical topics in a clearer and more professional format. Overall, it helped me show that I can combine spreadsheet skills, analytical thinking, and financial judgement within a portfolio setting.</p>
+<p><img src="../images/risk-3.jpg" class="img-fluid"></p>
 
 
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const targets = document.querySelectorAll(
+    "main.content h2, main.content h3, main.content p, main.content ul, .hero-section, .cards-3, .project-listing, .cv-box, .contact-box, .skill-card, .contact-card, .columns"
+  );
+
+  targets.forEach((el) => {
+    el.classList.add("reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

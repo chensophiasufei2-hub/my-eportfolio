@@ -1,0 +1,24 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const targets = document.querySelectorAll(
+    "main.content h2, main.content h3, main.content p, main.content ul, .hero-section, .cards-3, .project-listing, .cv-box, .contact-box, .skill-card, .contact-card, .columns"
+  );
+
+  targets.forEach((el) => {
+    el.classList.add("reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+});
+</script>

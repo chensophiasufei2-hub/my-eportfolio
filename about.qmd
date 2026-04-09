@@ -1,5 +1,15 @@
----
-title: "About"
----
+## About Me {#about}
 
-About this site
+::: {.split-section reverse}
+::: {.split-text}
+### Professional Profile
+
+I am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.
+
+I am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings.
+:::
+
+::: {.split-image}
+![](images/profile.jpg){.profile-image}
+:::
+:::

@@ -1,29 +1,28 @@
 ---
 title: ""
 page-layout: full
+body-classes: index-page
 ---
 
 ::: {.hero-section #top}
-
 ::: {.hero-left}
-
 ::: {.eyebrow}
-Business Analytics Student
+Business Analytics Student | DCU
 :::
 
 # SOPHIA SUFEI CHEN
 
 ::: {.hero-subtitle}
-I am a Business Studies student at Dublin City University specialising in Business Analytics, with interests in data-driven decision-making, business improvement, and professional development.
+Aspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English
 :::
 
 ::: {.hero-buttons}
-[View Projects](sql_analysis.qmd){.primary-btn}
-[Contact Me](#contact){.secondary-btn}
+[View Project](projects/index.qmd){.primary-btn}
+[Download CV](cv.pdf){.secondary-btn target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/sophiasufei-chen-389591233){.secondary-btn target="_blank"}
 :::
 
 ::: {.hero-stats}
-
 ::: {.stat-box}
 ### 2026
 Expected Graduation
@@ -38,45 +37,58 @@ Technical Skills
 ### 2
 Professional Roles
 :::
-
 :::
-
 :::
 
 ::: {.hero-right}
-![](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80)
+![](images/hero.jpg){.hero-image}
+:::
 :::
 
+## About Me {#about}
+
+:::: {.columns}
+::: {.column width="32%"}
+![](images/profile.jpg){.profile-image}
 :::
 
-::: {.content-section #about}
-## About Me
+::: {.column width="68%"}
+### Professional Profile
 
-I am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic profile, developing technical skills, and professional experience in a structured and professional format.
+I am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.
 
-I am particularly interested in business analytics, customer insight, operational improvement, and using digital tools to support better business decisions.
+In addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.
+
+I am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.
+:::
+::::
+
+## Background {#background}
+
+::: {.columns}
+::: {.column width="46%"}
+![](images/background.jpg){.feature-image}
 :::
 
-::: {.content-section #background}
-## Background
+::: {.column width="54%"}
+### Academic and Professional Development
 
-My background combines academic learning with practical experience in retail, customer service, and accounting support. These experiences have helped me build strong communication, teamwork, organisation, and problem-solving skills.
+My background combines university study with practical experience in customer service, retail operations, and accounting support. These experiences have helped me develop strong communication, teamwork, organisation, and problem-solving skills in professional environments.
 
-Through my studies, I have also developed an increasing interest in data analysis, business systems, and how analytics can improve decision-making in real organisations.
+Through my studies, I have also developed growing confidence in business systems, analytics tools, and data-driven decision-making. I am especially interested in how businesses can improve performance through better use of information, digital tools, and customer understanding.
+:::
 :::
 
-::: {.content-section #skills}
-## Core Skills
+## Core Skills {#skills}
 
 ::: {.cards-3}
-
 ::: {.card-box}
 ### Analytics Tools
 Excel, SQL, Python, Jamovi
 :::
 
 ::: {.card-box}
-### Business Software
+### Business Tools
 PowerPoint, Word, Xero
 :::
 
@@ -84,46 +96,41 @@ PowerPoint, Word, Xero
 ### Professional Skills
 Communication, teamwork, multitasking, time management
 :::
-
 :::
 
-:::
+## Project {#projects}
 
-::: {.content-section #projects}
-## Projects
-
-::: {.card-box}
+:::: {.columns}
+::: {.column width="52%"}
 ### Park & Polish Strategic Analysis
-My featured project focuses on the Park & Polish concept and demonstrates how business ideas can be structured, analysed, and presented through data, strategic planning, and visual communication.
 
-[View Project](sql_analysis.qmd){.primary-btn .small-btn}
-:::
-:::
+This featured project is based on the Park & Polish business concept. It demonstrates how a business idea can be analysed through structured planning, service design, KPI logic, pricing strategy, and visual business presentation.
 
-::: {.content-section #cv}
-## CV
+The project supports my portfolio goal of showing how analytical thinking can be applied to a real business scenario in a professional and well-structured way.
 
-::: {.cv-panel}
-My CV includes my education, technical skills, and work experience in customer service, retail operations, and accounting support.
-
-[Download CV](assets/cv.pdf){.primary-btn .small-btn target="_blank"}
-:::
+[View Project Details](projects/project1_park_polish.qmd){.primary-btn .small-btn}
 :::
 
-::: {.content-section .contact-layout #contact}
+::: {.column width="48%"}
+![](images/project.jpg){.feature-image}
+:::
+::::
 
-::: 
-## Contact Me
+## CV Summary {#cv}
 
+::: {.cv-box}
+My CV summarises my education, technical skills, and work experience in customer service, retail operations, and accounting support.
+
+[Open CV Page](cv.qmd){.primary-btn .small-btn}
+[Download CV PDF](cv.pdf){.secondary-btn .small-btn target="_blank"}
+:::
+
+## Contact Me {#contact}
+
+::: {.contact-box}
 I am open to future learning opportunities, collaboration, and professional connections.
-:::
 
-::: {.contact-panel}
-**Email:** chensophia0921@gmail.com
-
-**Phone:** +353 0876535880
-
+**Email:** chensophia0921@gmail.com  
+**Phone:** +353 0876535880  
 **Location:** Dublin, Ireland
-:::
-
 :::

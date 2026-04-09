@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Sophia Chen ePortfolio</title>
+<title>about – Sophia Chen ePortfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -98,27 +98,46 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#about"> 
+    <a class="nav-link" href="./index.html#about"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#background"> 
+    <a class="nav-link" href="./index.html#background"> 
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#skills"> 
+    <a class="nav-link" href="./index.html#skills"> 
 <span class="menu-text">Skills</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./#projects"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Portfolio</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-portfolio">    
+        <li>
+    <a class="dropdown-item" href="./projects/index.html">
+ <span class="dropdown-text">Project Directory</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/project1_park_polish.html">
+ <span class="dropdown-text">Project 1 — Park Polish</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/project2_power_bi.html">
+ <span class="dropdown-text">Project 2 — Power BI</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/project3_risk_management.html">
+ <span class="dropdown-text">Project 3 — Risk Management</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./#cv"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#contact"> 
+    <a class="nav-link" href="./index.html#contact"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -134,32 +153,49 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
+
+
+
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About Me</h2>
+<p>::: {.split-section reverse} ::: {.split-text} ### Professional Profile</p>
+<p>I am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.</p>
+<p>I am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::</p>
+<div class="split-image">
+<p><img src="images/profile.jpg" class="profile-image img-fluid"></p>
 </div>
+<p>:::</p>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>About this site</p>
-
-
+</section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const targets = document.querySelectorAll(
+    "main.content h2, main.content h3, main.content p, main.content ul, .hero-section, .cards-3, .project-listing, .cv-box, .contact-box, .skill-card, .contact-card, .columns"
+  );
+
+  targets.forEach((el) => {
+    el.classList.add("reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

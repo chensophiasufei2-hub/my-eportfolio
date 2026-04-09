@@ -1,79 +1,226 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects/project3_risk_management.html",
+    "href": "projects/project3_risk_management.html",
+    "title": "Project 3 — Risk Management and Hedging Analysis",
     "section": "",
-    "text": "About this site"
+    "text": "This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual evidence can support financial interpretation. It represents the quantitative side of my portfolio and demonstrates that I can work with risk measures, structured calculations, and visual presentation in a disciplined and analytical way."
   },
   {
-    "objectID": "projects/sql_analysis.html",
-    "href": "projects/sql_analysis.html",
-    "title": "Retail Sales Analysis (SQL)",
+    "objectID": "projects/project3_risk_management.html#overview",
+    "href": "projects/project3_risk_management.html#overview",
+    "title": "Project 3 — Risk Management and Hedging Analysis",
     "section": "",
-    "text": "[cite_start]Which products perform best, and what patterns can be identified to support better stock and sales decisions? [cite: 36, 41]"
+    "text": "This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual evidence can support financial interpretation. It represents the quantitative side of my portfolio and demonstrates that I can work with risk measures, structured calculations, and visual presentation in a disciplined and analytical way."
   },
   {
-    "objectID": "projects/sql_analysis.html#business-question",
-    "href": "projects/sql_analysis.html#business-question",
-    "title": "Retail Sales Analysis (SQL)",
-    "section": "",
-    "text": "[cite_start]Which products perform best, and what patterns can be identified to support better stock and sales decisions? [cite: 36, 41]"
+    "objectID": "projects/project3_risk_management.html#reflection",
+    "href": "projects/project3_risk_management.html#reflection",
+    "title": "Project 3 — Risk Management and Hedging Analysis",
+    "section": "Reflection",
+    "text": "Reflection\nThis project helped me develop a much deeper understanding of financial risk and the value of structured quantitative analysis. I learned that risk is not only about overall volatility, but also about downside exposure, portfolio interaction, and how different methods may produce different interpretations. Working through this project improved my confidence in handling more technical material and explaining it clearly. I also realised how important it is to connect calculations with interpretation, rather than presenting numbers without context. This project is valuable in my portfolio because it shows that I can work independently with analytical detail, financial reasoning, and visual evidence in a way that is both technical and understandable."
   },
   {
-    "objectID": "projects/sql_analysis.html#sql-implementation",
-    "href": "projects/sql_analysis.html#sql-implementation",
-    "title": "Retail Sales Analysis (SQL)",
-    "section": "SQL Implementation",
-    "text": "SQL Implementation\n[cite_start]Below is the query used to aggregate total sales by category to optimize inventory:\n```sql – Aggregating total sales by category SELECT product_category, SUM(sales_amount) AS total_revenue FROM sales_transactions GROUP BY product_category ORDER BY total_revenue DESC;"
+    "objectID": "projects/project3_risk_management.html#skills-gained",
+    "href": "projects/project3_risk_management.html#skills-gained",
+    "title": "Project 3 — Risk Management and Hedging Analysis",
+    "section": "Skills Gained",
+    "text": "Skills Gained\nThe main skills I gained from this project are Excel-based quantitative analysis, financial interpretation, and visual communication of technical results. I improved my use of Excel for structured calculations and became more confident in working with return-based measures, risk comparison, and numerical reasoning. I also strengthened my ability to interpret tables and charts in a meaningful way instead of treating them as isolated outputs. In addition, this project improved my confidence in explaining technical topics in a clearer and more professional format. Overall, it helped me show that I can combine spreadsheet skills, analytical thinking, and financial judgement within a portfolio setting."
+  },
+  {
+    "objectID": "projects/project1_park_polish.html",
+    "href": "projects/project1_park_polish.html",
+    "title": "Project 1 — Park Polish Marketing Analysis",
+    "section": "",
+    "text": "This project focuses on Park Polish as a marketing analysis case study. I used the project to explore how a new service concept can be positioned in a fragmented market through structured comparison, customer convenience analysis, and competitor review. The work centred on identifying market opportunity, understanding customer needs, and examining how a digitally focused car care service could differentiate itself from more traditional alternatives. I also used Excel and structured analytical logic to organise comparisons clearly and support decision-making. This project represents the strategic and commercial side of my portfolio and shows how I can connect marketing thinking with evidence-based analysis."
+  },
+  {
+    "objectID": "projects/project1_park_polish.html#overview",
+    "href": "projects/project1_park_polish.html#overview",
+    "title": "Project 1 — Park Polish Marketing Analysis",
+    "section": "",
+    "text": "This project focuses on Park Polish as a marketing analysis case study. I used the project to explore how a new service concept can be positioned in a fragmented market through structured comparison, customer convenience analysis, and competitor review. The work centred on identifying market opportunity, understanding customer needs, and examining how a digitally focused car care service could differentiate itself from more traditional alternatives. I also used Excel and structured analytical logic to organise comparisons clearly and support decision-making. This project represents the strategic and commercial side of my portfolio and shows how I can connect marketing thinking with evidence-based analysis."
+  },
+  {
+    "objectID": "projects/project1_park_polish.html#reflection",
+    "href": "projects/project1_park_polish.html#reflection",
+    "title": "Project 1 — Park Polish Marketing Analysis",
+    "section": "Reflection",
+    "text": "Reflection\nThis project helped me understand that marketing strategy is stronger when it is supported by structure and evidence rather than only creative ideas. By working on market comparison and competitor positioning, I became more confident in identifying a clear value proposition and explaining why a business idea may succeed in a specific market context. I also learned how to present commercial analysis in a more professional way, turning broad ideas into specific strategic conclusions. This project is important in my portfolio because it shows that I can think beyond theory and apply analytical reasoning to a practical business concept with a clear customer and market focus."
+  },
+  {
+    "objectID": "projects/project1_park_polish.html#skills-gained",
+    "href": "projects/project1_park_polish.html#skills-gained",
+    "title": "Project 1 — Park Polish Marketing Analysis",
+    "section": "Skills Gained",
+    "text": "Skills Gained\nThrough this project, I strengthened several useful skills. First, I improved my ability to use Excel to organise and compare business information clearly. Second, I developed stronger strategic thinking by breaking a market into categories such as competition, convenience, service offer, and positioning. Third, I practised structured analytical communication by presenting findings in a way that is concise and commercially relevant. Finally, this project strengthened my confidence in combining marketing analysis with data-informed logic. Even though it is not a purely technical project, it helped me develop an analytical mindset that supports business decision-making and portfolio presentation."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download My CV"
+  },
+  {
+    "objectID": "cv.html#curriculum-vitae",
+    "href": "cv.html#curriculum-vitae",
+    "title": "CV",
+    "section": "",
+    "text": "Download My CV"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "CV",
+    "section": "Profile",
+    "text": "Profile\nMotivated Business Studies student specialising in Business Analytics, with practical experience in customer service, retail operations, and accounting support. Interested in data-informed decision-making, business improvement, and professional development in analytical and commercial environments."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nDublin City University\nBusiness Studies\nSpecialism: Business Analytics\nExpected graduation: 2026"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "CV",
+    "section": "Experience",
+    "text": "Experience\n\nSales Assistant\nAllied Imports Ltd.\nJune 2024 – Present\n\nDelivered customer service through product recommendations and personalised assistance\nManaged inventory, restocking, and product displays\nProcessed transactions, returns, and exchanges efficiently\n\n\n\nAccounting Assistant Intern\nPTB Accounting Ltd.\nJanuary 2026 – Present\n\nAssisted with daily accounting and administrative tasks\nOrganised invoices, records, and financial documentation\nSupported accurate data entry and information management"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "CV",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nExcel\nSQL\nPython\nJamovi\nXero\nPowerPoint\nWord"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "CV",
+    "section": "Languages",
+    "text": "Languages\n\nEnglish — Fluent\nMandarin — Native"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SOPHIA SUFEI CHEN",
     "section": "",
-    "text": "Business Analytics Student\n\n\n\n\nI am a Business Studies student at Dublin City University specialising in Business Analytics, with interests in data-driven decision-making, business improvement, and professional development.\n\n\nView Projects Contact Me\n\n\n\n\nExpected Graduation\n\n\n\nTechnical Skills\n\n\n\nProfessional Roles"
+    "text": "Business Analytics Student | DCU\n\n\n\n\nAspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English\n\n\nView Project Download CV LinkedIn\n\n\n\n\nExpected Graduation\n\n\n\nTechnical Skills\n\n\n\nProfessional Roles"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
     "title": "SOPHIA SUFEI CHEN",
     "section": "About Me",
-    "text": "About Me\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic profile, developing technical skills, and professional experience in a structured and professional format.\nI am particularly interested in business analytics, customer insight, operational improvement, and using digital tools to support better business decisions."
+    "text": "About Me\n\n\n\n\n\nProfessional Profile\nI am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.\nIn addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.\nI am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment."
   },
   {
     "objectID": "index.html#background",
     "href": "index.html#background",
     "title": "SOPHIA SUFEI CHEN",
     "section": "Background",
-    "text": "Background\nMy background combines academic learning with practical experience in retail, customer service, and accounting support. These experiences have helped me build strong communication, teamwork, organisation, and problem-solving skills.\nThrough my studies, I have also developed an increasing interest in data analysis, business systems, and how analytics can improve decision-making in real organisations."
+    "text": "Background\n\n\n\n\n\nAcademic and Professional Development\nMy background combines university study with practical experience in customer service, retail operations, and accounting support. These experiences have helped me develop strong communication, teamwork, organisation, and problem-solving skills in professional environments.\nThrough my studies, I have also developed growing confidence in business systems, analytics tools, and data-driven decision-making. I am especially interested in how businesses can improve performance through better use of information, digital tools, and customer understanding."
   },
   {
-    "objectID": "index.html#core-skills",
-    "href": "index.html#core-skills",
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
     "title": "SOPHIA SUFEI CHEN",
     "section": "Core Skills",
-    "text": "Core Skills\n\n\nAnalytics Tools\nExcel, SQL, Python, Jamovi\n\n\nBusiness Software\nPowerPoint, Word, Xero\n\n\nProfessional Skills\nCommunication, teamwork, multitasking, time management"
+    "text": "Core Skills\n\n\nAnalytics Tools\nExcel, SQL, Python, Jamovi\n\n\nBusiness Tools\nPowerPoint, Word, Xero\n\n\nProfessional Skills\nCommunication, teamwork, multitasking, time management"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "SOPHIA SUFEI CHEN",
-    "section": "Projects",
-    "text": "Projects\n\nPark & Polish Strategic Analysis\nMy featured project focuses on the Park & Polish concept and demonstrates how business ideas can be structured, analysed, and presented through data, strategic planning, and visual communication.\nView Project"
+    "section": "Project",
+    "text": "Project\n\n\n\nPark & Polish Strategic Analysis\nThis featured project is based on the Park & Polish business concept. It demonstrates how a business idea can be analysed through structured planning, service design, KPI logic, pricing strategy, and visual business presentation.\nThe project supports my portfolio goal of showing how analytical thinking can be applied to a real business scenario in a professional and well-structured way.\nView Project Details"
   },
   {
     "objectID": "index.html#cv",
     "href": "index.html#cv",
     "title": "SOPHIA SUFEI CHEN",
-    "section": "CV",
-    "text": "CV\n\nMy CV includes my education, technical skills, and work experience in customer service, retail operations, and accounting support.\nDownload CV"
+    "section": "CV Summary",
+    "text": "CV Summary\n\nMy CV summarises my education, technical skills, and work experience in customer service, retail operations, and accounting support.\nOpen CV Page Download CV PDF"
   },
   {
-    "objectID": "index.html#contact-me",
-    "href": "index.html#contact-me",
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
     "title": "SOPHIA SUFEI CHEN",
     "section": "Contact Me",
-    "text": "Contact Me\nI am open to future learning opportunities, collaboration, and professional connections. :::\n\nEmail: chensophia0921@gmail.com\nPhone: +353 0876535880\nLocation: Dublin, Ireland\n\n:::"
+    "text": "Contact Me\n\nI am open to future learning opportunities, collaboration, and professional connections.\nEmail: chensophia0921@gmail.com\nPhone: +353 0876535880\nLocation: Dublin, Ireland"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sophia Chen ePortfolio",
+    "section": "",
+    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Sophia Chen ePortfolio",
+    "section": "",
+    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This section presents three portfolio projects that reflect my academic development in marketing analysis, business intelligence, and quantitative risk analysis.\n\n\nThis project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.\nOpen Project 1\n\n\n\nThis project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.\nOpen Project 2\n\n\n\nThis project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.\nOpen Project 3"
+  },
+  {
+    "objectID": "projects/index.html#project-1-park-polish-marketing-analysis",
+    "href": "projects/index.html#project-1-park-polish-marketing-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "This project focuses on market analysis, competitor positioning, and strategic marketing insights for the Park Polish business concept.\nOpen Project 1"
+  },
+  {
+    "objectID": "projects/index.html#project-2-technova-power-bi-analysis",
+    "href": "projects/index.html#project-2-technova-power-bi-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "This project uses Microsoft Power BI to analyse TechNova’s financial performance from 2015 to 2024.\nOpen Project 2"
+  },
+  {
+    "objectID": "projects/index.html#project-3-risk-management-and-hedging-analysis",
+    "href": "projects/index.html#project-3-risk-management-and-hedging-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "This project presents Excel-based quantitative work on market risk, portfolio risk, and hedging analysis.\nOpen Project 3"
+  },
+  {
+    "objectID": "projects/project2_power_bi.html",
+    "href": "projects/project2_power_bi.html",
+    "title": "Project 2 — TechNova Power BI Analysis",
+    "section": "",
+    "text": "This project presents a Business Intelligence analysis of TechNova using Microsoft Power BI. The aim was to turn business data into dashboard visuals that make performance easier to interpret across categories, regions, costs, and sales channels. I used this project to explore how visual analytics can support strategic understanding by highlighting patterns that may not be obvious in raw tables alone. The dashboard format helped present key indicators in a more accessible and management-oriented way. This project adds a strong visual and business intelligence dimension to my portfolio by showing how data can be transformed into professional dashboard communication and practical strategic insight."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html#overview",
+    "href": "projects/project2_power_bi.html#overview",
+    "title": "Project 2 — TechNova Power BI Analysis",
+    "section": "",
+    "text": "This project presents a Business Intelligence analysis of TechNova using Microsoft Power BI. The aim was to turn business data into dashboard visuals that make performance easier to interpret across categories, regions, costs, and sales channels. I used this project to explore how visual analytics can support strategic understanding by highlighting patterns that may not be obvious in raw tables alone. The dashboard format helped present key indicators in a more accessible and management-oriented way. This project adds a strong visual and business intelligence dimension to my portfolio by showing how data can be transformed into professional dashboard communication and practical strategic insight."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html#reflection",
+    "href": "projects/project2_power_bi.html#reflection",
+    "title": "Project 2 — TechNova Power BI Analysis",
+    "section": "Reflection",
+    "text": "Reflection\nThis project helped me appreciate the importance of visual storytelling in business analysis. Instead of focusing only on calculations, I learned how layout, dashboard structure, and chart selection affect how clearly insights can be communicated. I became more aware that good analysis should not only be correct, but also easy for others to understand and use. Working with Power BI strengthened my ability to connect numbers with interpretation and to think about what information decision-makers need most. This project is important in my portfolio because it demonstrates that I can move from raw business data to a visual and professional presentation style that supports strategic discussion."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html#skills-gained",
+    "href": "projects/project2_power_bi.html#skills-gained",
+    "title": "Project 2 — TechNova Power BI Analysis",
+    "section": "Skills Gained",
+    "text": "Skills Gained\nThrough this project, I developed stronger Power BI and dashboard design skills. I improved my ability to organise performance indicators into a clear visual structure and to compare profitability, cost, and category performance in a meaningful way. I also strengthened my skills in business interpretation, because the dashboard required me to explain not only what the visuals show, but also why the patterns matter. Another skill gained was data storytelling: I learned how to present findings in a way that is visually clear, concise, and relevant to management decisions. Overall, this project strengthened both my technical BI capability and my confidence in communicating insights professionally."
   }
 ]

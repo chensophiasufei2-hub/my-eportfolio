@@ -1,0 +1,51 @@
+---
+title: "CV"
+---
+
+## Curriculum Vitae
+
+[Download My CV](cv.pdf){target="_blank"}
+
+## Profile
+
+Motivated Business Studies student specialising in **Business Analytics**, with practical experience in customer service, retail operations, and accounting support. Interested in data-informed decision-making, business improvement, and professional development in analytical and commercial environments.
+
+## Education
+
+### Dublin City University
+**Business Studies**  
+Specialism: **Business Analytics**  
+Expected graduation: **2026**
+
+## Experience
+
+### Sales Assistant  
+**Allied Imports Ltd.**  
+June 2024 – Present
+
+- Delivered customer service through product recommendations and personalised assistance
+- Managed inventory, restocking, and product displays
+- Processed transactions, returns, and exchanges efficiently
+
+### Accounting Assistant Intern  
+**PTB Accounting Ltd.**  
+January 2026 – Present
+
+- Assisted with daily accounting and administrative tasks
+- Organised invoices, records, and financial documentation
+- Supported accurate data entry and information management
+
+## Technical Skills
+
+- Excel
+- SQL
+- Python
+- Jamovi
+- Xero
+- PowerPoint
+- Word
+
+## Languages
+
+- **English** — Fluent
+- **Mandarin** — Native
