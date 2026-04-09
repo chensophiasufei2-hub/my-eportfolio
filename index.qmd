@@ -17,7 +17,7 @@ Aspiring Business Analyst & Marketing Planner | Final Year Business Studies Stud
 :::
 
 ::: {.hero-buttons}
-[View Project](projects/index.qmd){.primary-btn}
+[View Portfolio](projects/index.qmd){.primary-btn}
 [Download CV](cv.pdf){.secondary-btn target="_blank"}
 [LinkedIn](https://www.linkedin.com/in/sophiasufei-chen-389591233){.secondary-btn target="_blank"}
 :::
@@ -29,13 +29,13 @@ Expected Graduation
 :::
 
 ::: {.stat-box}
-### 5+
-Technical Skills
+### ACCA
+In Progress
 :::
 
 ::: {.stat-box}
-### 2
-Professional Roles
+### PTB
+Internship Experience
 :::
 :::
 :::
@@ -47,12 +47,12 @@ Professional Roles
 
 ## About Me {#about}
 
-:::: {.columns}
-::: {.column width="32%"}
+::: {.about-grid}
+::: {.about-image}
 ![](images/profile.jpg){.profile-image}
 :::
 
-::: {.column width="68%"}
+::: {.about-text}
 ### Professional Profile
 
 I am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.
@@ -61,16 +61,16 @@ In addition to my academic studies, I am also pursuing ACCA, which is helping me
 
 I am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.
 :::
-::::
+:::
 
 ## Background {#background}
 
-::: {.columns}
-::: {.column width="46%"}
+::: {.background-grid}
+::: {.background-image}
 ![](images/background.jpg){.feature-image}
 :::
 
-::: {.column width="54%"}
+::: {.background-text}
 ### Academic and Professional Development
 
 My background combines university study with practical experience in customer service, retail operations, and accounting support. These experiences have helped me develop strong communication, teamwork, organisation, and problem-solving skills in professional environments.
@@ -81,56 +81,108 @@ Through my studies, I have also developed growing confidence in business systems
 
 ## Core Skills {#skills}
 
-::: {.cards-3}
-::: {.card-box}
+::: {.skills-grid}
+::: {.skill-card}
 ### Analytics Tools
 Excel, SQL, Python, Jamovi
 :::
 
-::: {.card-box}
+::: {.skill-card}
 ### Business Tools
 PowerPoint, Word, Xero
 :::
 
-::: {.card-box}
+::: {.skill-card}
 ### Professional Skills
 Communication, teamwork, multitasking, time management
 :::
+
+::: {.skill-card}
+### Accounting & Finance
+Accounting support, financial documentation, ACCA learning
+:::
 :::
 
-## Project {#projects}
+## Portfolio {#projects}
 
-:::: {.columns}
-::: {.column width="52%"}
-### Park & Polish Strategic Analysis
+::: {.portfolio-grid}
+::: {.portfolio-text}
+### Selected Portfolio Work
 
-This featured project is based on the Park & Polish business concept. It demonstrates how a business idea can be analysed through structured planning, service design, KPI logic, pricing strategy, and visual business presentation.
+This portfolio highlights three main projects that reflect different dimensions of my academic and professional development: marketing analysis, business intelligence, and quantitative risk analysis. Together, they show how I combine structured thinking, analytical tools, and professional presentation.
 
-The project supports my portfolio goal of showing how analytical thinking can be applied to a real business scenario in a professional and well-structured way.
+The projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.
 
-[View Project Details](projects/project1_park_polish.qmd){.primary-btn .small-btn}
+[Open Portfolio](projects/index.qmd){.primary-btn .small-btn}
 :::
 
-::: {.column width="48%"}
+::: {.portfolio-image}
 ![](images/project.jpg){.feature-image}
 :::
-::::
-
-## CV Summary {#cv}
-
-::: {.cv-box}
-My CV summarises my education, technical skills, and work experience in customer service, retail operations, and accounting support.
-
-[Open CV Page](cv.qmd){.primary-btn .small-btn}
-[Download CV PDF](cv.pdf){.secondary-btn .small-btn target="_blank"}
 :::
 
-## Contact Me {#contact}
+## Media {#media}
 
-::: {.contact-box}
-I am open to future learning opportunities, collaboration, and professional connections.
+::: {.media-intro}
+A curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.
+:::
 
-**Email:** chensophia0921@gmail.com  
-**Phone:** +353 0876535880  
-**Location:** Dublin, Ireland
+::: {.media-grid}
+::: {.media-card}
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/9fFQA-JOXA0" title="What Is Business Analytics? | Business: Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Business Analytics
+
+This video gives a clear introduction to business analytics and helps explain how data can support better business decisions.
+:::
+
+::: {.media-card}
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/Dm8AEZECc5E" title="What Is ACCA? | Benefits of Obtaining the ACCA Qualification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### ACCA Learning
+
+This resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.
+:::
+
+::: {.media-card}
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/5ZQ65RbsAB8" title="Young women on social media ⏲️ 6 Minute English" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### English Learning
+
+This English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.
+:::
+:::
+
+::: {.custom-footer #contact}
+::: {.footer-grid}
+::: {.footer-block}
+#### Contact
+
+Dublin, Ireland
+
+[chen.sophiasufei2@mail.dcu.ie](mailto:chen.sophiasufei2@mail.dcu.ie)
+:::
+
+::: {.footer-block .footer-center}
+#### Connect
+
+::: {.social-icons}
+[DCU](mailto:chen.sophiasufei2@mail.dcu.ie){.social-link}
+[in](https://www.linkedin.com/in/sophiasufei-chen-389591233){.social-link target="_blank"}
+[IG](https://www.instagram.com/sooofeiii?igsh=cXkwYWNnMG9iNHU4&utm_source=qr){.social-link target="_blank"}
+:::
+:::
+
+::: {.footer-block .footer-right}
+#### Portfolio
+
+Designed by Sophia Sufei Chen | 2026
+:::
+:::
 :::
