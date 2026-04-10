@@ -1,19 +1,51 @@
 ---
-title: "Project 2 — TechNova Power BI Analysis"
+title: "Project 2 — Power BI"
+description: "Dashboard design, business storytelling, and performance visualisation using Power BI."
+author: "Sophia Sufei Chen"
+date: "2025-04-20"
+image: "../images/powerbi-1.jpg"
+categories: [Power BI, Business Intelligence, Visualisation]
 ---
 
 ## Overview
 
-This project presents a Business Intelligence analysis of TechNova using Microsoft Power BI. The aim was to turn business data into dashboard visuals that make performance easier to interpret across categories, regions, costs, and sales channels. I used this project to explore how visual analytics can support strategic understanding by highlighting patterns that may not be obvious in raw tables alone. The dashboard format helped present key indicators in a more accessible and management-oriented way. This project adds a strong visual and business intelligence dimension to my portfolio by showing how data can be transformed into professional dashboard communication and practical strategic insight.
+This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns.
 
-![](../images/powerbi-1.jpg)
+::: {.project-gallery}
+![Power BI dashboard overview showing business performance indicators](../images/powerbi-1.jpg){.gallery-image}
+![](../images/powerbi-2.jpg){.gallery-image}
+:::
 
-## Reflection
+## Active Python Example
 
-This project helped me appreciate the importance of visual storytelling in business analysis. Instead of focusing only on calculations, I learned how layout, dashboard structure, and chart selection affect how clearly insights can be communicated. I became more aware that good analysis should not only be correct, but also easy for others to understand and use. Working with Power BI strengthened my ability to connect numbers with interpretation and to think about what information decision-makers need most. This project is important in my portfolio because it demonstrates that I can move from raw business data to a visual and professional presentation style that supports strategic discussion.
+The following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.
 
-![](../images/powerbi-2.jpg)
+```{python}
+#| echo: true
+#| code-fold: true
+#| fig-cap: "Example Python visualisation of category-level business performance"
 
-## Skills Gained
+import pandas as pd
+import matplotlib.pyplot as plt
 
-Through this project, I developed stronger Power BI and dashboard design skills. I improved my ability to organise performance indicators into a clear visual structure and to compare profitability, cost, and category performance in a meaningful way. I also strengthened my skills in business interpretation, because the dashboard required me to explain not only what the visuals show, but also why the patterns matter. Another skill gained was data storytelling: I learned how to present findings in a way that is visually clear, concise, and relevant to management decisions. Overall, this project strengthened both my technical BI capability and my confidence in communicating insights professionally.
+data = pd.DataFrame({
+    "Category": ["Travel", "Construction", "Electronics", "Finance", "Retail"],
+    "Net_Profit": [82, 76, -14, 58, 41]
+})
+
+plt.figure(figsize=(8, 5))
+plt.bar(data["Category"], data["Net_Profit"])
+plt.title("Net Profit by Category")
+plt.xlabel("Category")
+plt.ylabel("Net Profit")
+plt.tight_layout()
+plt.show()
+This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.
+
+Reflection
+
+This project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.
+
+Skills Gained
+
+Through this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters.

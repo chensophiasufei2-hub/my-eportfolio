@@ -1,2 +1,8 @@
+.DS_Store
+.quarto/
+.Rproj.user/
+*.log
+*.tmp
+
 /.quarto/
 **/*.quarto_ipynb

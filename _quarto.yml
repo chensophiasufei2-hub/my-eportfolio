@@ -7,10 +7,14 @@ project:
     - about_more.qmd
     - cv.qmd
     - projects/*.qmd
+    - reflection.qmd
+    - contact.qmd
 
 website:
   title: "Sophia Chen ePortfolio"
+  favicon: images/favicon.png
   navbar:
+    logo: images/logo.png
     left:
       - text: "Home"
         href: index.qmd
@@ -32,15 +36,21 @@ website:
             href: projects/project2_power_bi.qmd
           - text: "Project 3 — Risk Management"
             href: projects/project3_risk_management.qmd
+      - text: "Reflection"
+        href: reflection.qmd
       - text: "CV"
-        href: cv.qmd
+        href: cv.pdf
+        target: _blank
+      - text: "GitHub"
+        href: https://github.com/chensophiasufei2-hub/my-eportfolio
+        target: _blank
       - text: "Contact"
-        href: index.qmd#contact
+        href: contact.qmd
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: styles.scss
     include-after-body: scripts.html
     toc: false
     smooth-scroll: true

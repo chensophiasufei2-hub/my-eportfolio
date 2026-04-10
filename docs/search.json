@@ -1,59 +1,80 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
+  },
+  {
+    "objectID": "contact.html#contact-information",
+    "href": "contact.html#contact-information",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
+  },
+  {
+    "objectID": "contact.html#availability",
+    "href": "contact.html#availability",
+    "title": "Contact",
+    "section": "Availability",
+    "text": "Availability\n\nOpen to graduate opportunities\nOpen to internships\nOpen to professional networking\nInterested in business analysis, marketing, and finance support roles"
+  },
+  {
     "objectID": "projects/project3_risk_management.html",
     "href": "projects/project3_risk_management.html",
-    "title": "Project 3 — Risk Management and Hedging Analysis",
+    "title": "Project 3 — Risk Management",
     "section": "",
-    "text": "This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual evidence can support financial interpretation. It represents the quantitative side of my portfolio and demonstrates that I can work with risk measures, structured calculations, and visual presentation in a disciplined and analytical way."
+    "text": "This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual interpretation can support understanding of financial risk. It is a strong example of structured Excel work and demonstrates my ability to engage with more calculation-based analysis."
   },
   {
     "objectID": "projects/project3_risk_management.html#overview",
     "href": "projects/project3_risk_management.html#overview",
-    "title": "Project 3 — Risk Management and Hedging Analysis",
+    "title": "Project 3 — Risk Management",
     "section": "",
-    "text": "This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual evidence can support financial interpretation. It represents the quantitative side of my portfolio and demonstrates that I can work with risk measures, structured calculations, and visual presentation in a disciplined and analytical way."
+    "text": "This project focuses on quantitative risk analysis and hedging using Excel-based calculations and financial visualisation. It examines how different assets behave under risk and how quantitative measures can be used to compare volatility, downside exposure, and portfolio effects. I used this project to apply a more technical and numerical approach than in my other portfolio work. The project also explores hedging logic and shows how visual interpretation can support understanding of financial risk. It is a strong example of structured Excel work and demonstrates my ability to engage with more calculation-based analysis."
   },
   {
-    "objectID": "projects/project3_risk_management.html#reflection",
-    "href": "projects/project3_risk_management.html#reflection",
-    "title": "Project 3 — Risk Management and Hedging Analysis",
-    "section": "Reflection",
-    "text": "Reflection\nThis project helped me develop a much deeper understanding of financial risk and the value of structured quantitative analysis. I learned that risk is not only about overall volatility, but also about downside exposure, portfolio interaction, and how different methods may produce different interpretations. Working through this project improved my confidence in handling more technical material and explaining it clearly. I also realised how important it is to connect calculations with interpretation, rather than presenting numbers without context. This project is valuable in my portfolio because it shows that I can work independently with analytical detail, financial reasoning, and visual evidence in a way that is both technical and understandable."
+    "objectID": "projects/project3_risk_management.html#risk-measure-example",
+    "href": "projects/project3_risk_management.html#risk-measure-example",
+    "title": "Project 3 — Risk Management",
+    "section": "Risk Measure Example",
+    "text": "Risk Measure Example\nOne simple way to represent portfolio risk is through volatility, which can be written as:\n\\[\n\\sigma = \\sqrt{\\frac{1}{n-1}\\sum_{i=1}^{n}(r_i - \\bar{r})^2}\n\\]\nThis equation shows how dispersion around the mean return can be used to measure variability and financial risk."
   },
   {
-    "objectID": "projects/project3_risk_management.html#skills-gained",
-    "href": "projects/project3_risk_management.html#skills-gained",
-    "title": "Project 3 — Risk Management and Hedging Analysis",
-    "section": "Skills Gained",
-    "text": "Skills Gained\nThe main skills I gained from this project are Excel-based quantitative analysis, financial interpretation, and visual communication of technical results. I improved my use of Excel for structured calculations and became more confident in working with return-based measures, risk comparison, and numerical reasoning. I also strengthened my ability to interpret tables and charts in a meaningful way instead of treating them as isolated outputs. In addition, this project improved my confidence in explaining technical topics in a clearer and more professional format. Overall, it helped me show that I can combine spreadsheet skills, analytical thinking, and financial judgement within a portfolio setting."
+    "objectID": "projects/project3_risk_management.html#active-python-example",
+    "href": "projects/project3_risk_management.html#active-python-example",
+    "title": "Project 3 — Risk Management",
+    "section": "Active Python Example",
+    "text": "Active Python Example\nThe following Python example demonstrates a simple return and volatility analysis. It reflects the kind of structured numerical reasoning that supports risk management and hedging work.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of simulated daily returns”\nimport pandas as pd import numpy as np import matplotlib.pyplot as plt\nnp.random.seed(42)\nreturns = pd.DataFrame({ “Day”: range(1, 51), “Daily_Return”: np.random.normal(0.001, 0.02, 50) })\nvolatility = returns[“Daily_Return”].std() mean_return = returns[“Daily_Return”].mean()\nprint(“Mean Daily Return:”, round(mean_return, 4)) print(“Volatility (Std Dev):”, round(volatility, 4))\nplt.figure(figsize=(8, 5)) plt.plot(returns[“Day”], returns[“Daily_Return”]) plt.axhline(mean_return, linestyle=“–”) plt.title(“Simulated Daily Returns”) plt.xlabel(“Day”) plt.ylabel(“Return”) plt.tight_layout() plt.show() This active Python example shows how return data can be interpreted through both summary statistics and visual output. It supports the wider project by demonstrating an executable form of structured financial analysis.\nReflection\nThis project helped me develop a stronger appreciation for how quantitative methods can support financial understanding and decision-making. I learned how important it is to interpret numbers carefully, rather than simply calculate them, because the real value of analysis comes from explaining what the results mean. The project also improved my confidence in working with more detailed and technical Excel functions. Overall, it gave me more confidence in handling structured numerical tasks and strengthened my interest in analytical work that involves both logic and interpretation.\nSkills Gained\nThe main skills I developed through this project include Excel functions, quantitative analysis, risk interpretation, structured calculations, and financial data presentation. I also improved my ability to compare measures such as volatility, Value-at-Risk, and portfolio risk in a more organised and meaningful way. Beyond technical skills, the project strengthened my attention to detail, accuracy, and confidence in explaining numerical findings clearly. These skills are useful for finance support, business analysis, and roles involving structured data interpretation."
   },
   {
     "objectID": "projects/project1_park_polish.html",
     "href": "projects/project1_park_polish.html",
-    "title": "Project 1 — Park Polish Marketing Analysis",
+    "title": "Project 1 — Park & Polish",
     "section": "",
-    "text": "This project focuses on Park Polish as a marketing analysis case study. I used the project to explore how a new service concept can be positioned in a fragmented market through structured comparison, customer convenience analysis, and competitor review. The work centred on identifying market opportunity, understanding customer needs, and examining how a digitally focused car care service could differentiate itself from more traditional alternatives. I also used Excel and structured analytical logic to organise comparisons clearly and support decision-making. This project represents the strategic and commercial side of my portfolio and shows how I can connect marketing thinking with evidence-based analysis."
+    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
   },
   {
     "objectID": "projects/project1_park_polish.html#overview",
     "href": "projects/project1_park_polish.html#overview",
-    "title": "Project 1 — Park Polish Marketing Analysis",
+    "title": "Project 1 — Park & Polish",
     "section": "",
-    "text": "This project focuses on Park Polish as a marketing analysis case study. I used the project to explore how a new service concept can be positioned in a fragmented market through structured comparison, customer convenience analysis, and competitor review. The work centred on identifying market opportunity, understanding customer needs, and examining how a digitally focused car care service could differentiate itself from more traditional alternatives. I also used Excel and structured analytical logic to organise comparisons clearly and support decision-making. This project represents the strategic and commercial side of my portfolio and shows how I can connect marketing thinking with evidence-based analysis."
+    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
   },
   {
     "objectID": "projects/project1_park_polish.html#reflection",
     "href": "projects/project1_park_polish.html#reflection",
-    "title": "Project 1 — Park Polish Marketing Analysis",
+    "title": "Project 1 — Park & Polish",
     "section": "Reflection",
-    "text": "Reflection\nThis project helped me understand that marketing strategy is stronger when it is supported by structure and evidence rather than only creative ideas. By working on market comparison and competitor positioning, I became more confident in identifying a clear value proposition and explaining why a business idea may succeed in a specific market context. I also learned how to present commercial analysis in a more professional way, turning broad ideas into specific strategic conclusions. This project is important in my portfolio because it shows that I can think beyond theory and apply analytical reasoning to a practical business concept with a clear customer and market focus."
+    "text": "Reflection\nThis project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way."
   },
   {
     "objectID": "projects/project1_park_polish.html#skills-gained",
     "href": "projects/project1_park_polish.html#skills-gained",
-    "title": "Project 1 — Park Polish Marketing Analysis",
+    "title": "Project 1 — Park & Polish",
     "section": "Skills Gained",
-    "text": "Skills Gained\nThrough this project, I strengthened several useful skills. First, I improved my ability to use Excel to organise and compare business information clearly. Second, I developed stronger strategic thinking by breaking a market into categories such as competition, convenience, service offer, and positioning. Third, I practised structured analytical communication by presenting findings in a way that is concise and commercially relevant. Finally, this project strengthened my confidence in combining marketing analysis with data-informed logic. Even though it is not a purely technical project, it helped me develop an analytical mindset that supports business decision-making and portfolio presentation."
+    "text": "Skills Gained\nThe main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
   },
   {
     "objectID": "cv.html",
@@ -107,58 +128,79 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Sophia Chen ePortfolio",
+    "title": "About",
     "section": "",
-    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+    "text": "I am Sophia Sufei Chen, a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings."
   },
   {
-    "objectID": "about.html#about",
-    "href": "about.html#about",
-    "title": "Sophia Chen ePortfolio",
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
     "section": "",
-    "text": "::: {.split-section reverse} ::: {.split-text} ### Professional Profile\nI am Sophia Sufei Chen, a Business Studies student specialising in Business Analytics at Dublin City University. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings. :::\n\n\n\n:::"
+    "text": "I am Sophia Sufei Chen, a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. This ePortfolio presents my academic background, technical skills, and professional development in a clear and professional format.\nI am particularly interested in business analytics, customer insight, and using data-informed thinking to support better business decisions in real organisational settings."
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "SOPHIA SUFEI CHEN",
-    "section": "About Me",
-    "text": "About Me\n\n\n\n\n\nProfessional Profile\nI am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.\nIn addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.\nI am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.\nMore About Me"
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\n\nAcademic and Professional Development\nMy background combines university study with practical experience in customer service, retail operations, and accounting support. These experiences have helped me develop strong communication, teamwork, organisation, and problem-solving skills in professional environments.\nThrough my studies, I have also developed growing confidence in business systems, analytics tools, and data-driven decision-making. I am especially interested in how businesses can improve performance through better use of information, digital tools, and customer understanding."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sophia Chen ePortfolio",
+    "section": "",
+    "text": "Aspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English\nI am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.\nIn addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.\nI am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.\n\nView Portfolio Download CV More About Me"
+  },
+  {
+    "objectID": "index.html#sophia-sufei-chen",
+    "href": "index.html#sophia-sufei-chen",
+    "title": "Sophia Chen ePortfolio",
+    "section": "",
+    "text": "Aspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English\nI am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.\nIn addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.\nI am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.\n\nView Portfolio Download CV More About Me"
   },
   {
     "objectID": "index.html#background",
     "href": "index.html#background",
-    "title": "SOPHIA SUFEI CHEN",
+    "title": "Sophia Chen ePortfolio",
     "section": "Background",
     "text": "Background\n\n\n\n\n\nAcademic and Professional Development\nMy background combines university study with practical experience in customer service, retail operations, and accounting support. These experiences have helped me develop strong communication, teamwork, organisation, and problem-solving skills in professional environments.\nThrough my studies, I have also developed growing confidence in business systems, analytics tools, and data-driven decision-making. I am especially interested in how businesses can improve performance through better use of information, digital tools, and customer understanding."
   },
   {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
-    "title": "SOPHIA SUFEI CHEN",
+    "title": "Sophia Chen ePortfolio",
     "section": "Core Skills",
-    "text": "Core Skills\n\n\nAnalytics Tools\nExcel\nSQL\nPython\nJamovi\n\n\nBusiness Tools\nPowerPoint\nWord\nXero\n\n\nProfessional Skills\nCommunication\nTeamwork\nMultitasking\nTime Management\n\n\nAccounting & Finance\nAccounting Support\nFinancial Documentation\nACCA Learning"
+    "text": "Core Skills\n\n\nAnalytics Tools\nExcel\nSQL\nPython\nJamovi\n\n\nBusiness Tools\nPowerPoint\nWord\nXero\nPower BI\n\n\nProfessional Skills\nCommunication\nTeamwork\nTime Management\nProblem-Solving\n\n\nAccounting & Finance\nAccounting Support\nFinancial Documentation\nACCA Learning\nCommercial Awareness"
   },
   {
     "objectID": "index.html#certs",
     "href": "index.html#certs",
-    "title": "SOPHIA SUFEI CHEN",
+    "title": "Sophia Chen ePortfolio",
     "section": "Certs",
     "text": "Certs\n\nI am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools. These certificates reflect my willingness to keep improving my self skills, technical confidence, and workplace readiness beyond the classroom.\n\n\n\n\n\nKubicle Diploma — Excel\nThis certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills through independent online learning.\n\n\n\n\n\nKubicle Diploma — Word\nThis certificate supports my professional development in document preparation, communication, and workplace presentation, showing my commitment to building useful office and business support skills.\n\n\n\n\n\nKubicle Diploma — SQL\nThis certificate demonstrates my effort to strengthen database and query skills through structured online learning, supporting my longer-term development in analytics and data-focused work.\n\n\n\n\n×"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "SOPHIA SUFEI CHEN",
+    "title": "Sophia Chen ePortfolio",
     "section": "Portfolio",
-    "text": "Portfolio\n\n\nSelected Portfolio Work\nThis portfolio highlights three main projects that reflect different dimensions of my academic and professional development: marketing analysis, business intelligence, and quantitative risk analysis. Together, they show how I combine structured thinking, analytical tools, and professional presentation.\nThe projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.\nOpen Portfolio"
+    "text": "Portfolio\n\n\nSelected Portfolio Work\nThis portfolio highlights three main projects that reflect different dimensions of my academic and professional development: marketing analysis, business intelligence, and quantitative risk analysis. Together, they show how I combine structured thinking, analytical tools, and professional presentation.\nThe projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.\nOpen Portfolio Read Reflection"
   },
   {
     "objectID": "index.html#media",
     "href": "index.html#media",
-    "title": "SOPHIA SUFEI CHEN",
+    "title": "Sophia Chen ePortfolio",
     "section": "Media",
-    "text": "Media\n\nA curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.\n\n\n\n\n\n\n\n\nBusiness Analytics\nThis video gives a clear introduction to business analytics and helps explain how data can support better business decisions.\n\n\n\n\n\n\n\n\nACCA Learning\nThis resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.\n\n\n\n\n\n\n\n\nEnglish Learning\nThis English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.\n\n\n\n\n\n\nContact\nDublin, Ireland\nchen.sophiasufei2@mail.dcu.ie\n\n\nConnect\n\n    \n    \n    \n\n\n\nPortfolio\nDesigned by Sophia Sufei Chen | 2026\n\n\n\n\n↑\n\n\n×"
+    "text": "Media\n\nA curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.1\n\n\n\n\n\n\n\n\nBusiness Analytics\nThis video gives a clear introduction to business analytics and helps explain how data can support better business decisions.\n\n\n\n\n\n\n\n\nACCA Learning\nThis resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.\n\n\n\n\n\n\n\n\nEnglish Learning\nThis English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.\n\n\n\n\n\n\nContact\nDublin, Ireland\nchen.sophiasufei2@mail.dcu.ie\n\n\nConnect\n\n    \n    \n    \n\n\n\nPortfolio\nDesigned by Sophia Sufei Chen | 2026\nBuilt with Quarto"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Sophia Chen ePortfolio",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThese videos are included as learning resources to support my independent professional development outside the classroom.↩︎"
   },
   {
     "objectID": "about_more.html",
@@ -186,41 +228,48 @@
     "href": "projects/index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "A curated selection of academic and practical work that reflects my development in business analytics, marketing planning, business intelligence, and quantitative analysis.\n\n\n\n\n\nThis project focuses on market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.\nOpen Project 1\n\n\n\n\n\n\nThis project presents dashboard design, business storytelling, and performance visualisation using Power BI in a collaborative business context.\nOpen Project 2\n\n\n\n\n\n\nThis project explores Excel-based quantitative work, risk measures, and hedging analysis through structured financial calculations and visual interpretation.\nOpen Project 3"
+    "text": "This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis."
   },
   {
     "objectID": "projects/index.html#project-directory",
     "href": "projects/index.html#project-directory",
     "title": "Portfolio",
     "section": "",
-    "text": "A curated selection of academic and practical work that reflects my development in business analytics, marketing planning, business intelligence, and quantitative analysis.\n\n\n\n\n\nThis project focuses on market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.\nOpen Project 1\n\n\n\n\n\n\nThis project presents dashboard design, business storytelling, and performance visualisation using Power BI in a collaborative business context.\nOpen Project 2\n\n\n\n\n\n\nThis project explores Excel-based quantitative work, risk measures, and hedging analysis through structured financial calculations and visual interpretation.\nOpen Project 3"
+    "text": "This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis."
   },
   {
     "objectID": "projects/project2_power_bi.html",
     "href": "projects/project2_power_bi.html",
-    "title": "Project 2 — TechNova Power BI Analysis",
+    "title": "Project 2 — Power BI",
     "section": "",
-    "text": "This project presents a Business Intelligence analysis of TechNova using Microsoft Power BI. The aim was to turn business data into dashboard visuals that make performance easier to interpret across categories, regions, costs, and sales channels. I used this project to explore how visual analytics can support strategic understanding by highlighting patterns that may not be obvious in raw tables alone. The dashboard format helped present key indicators in a more accessible and management-oriented way. This project adds a strong visual and business intelligence dimension to my portfolio by showing how data can be transformed into professional dashboard communication and practical strategic insight."
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
   },
   {
     "objectID": "projects/project2_power_bi.html#overview",
     "href": "projects/project2_power_bi.html#overview",
-    "title": "Project 2 — TechNova Power BI Analysis",
+    "title": "Project 2 — Power BI",
     "section": "",
-    "text": "This project presents a Business Intelligence analysis of TechNova using Microsoft Power BI. The aim was to turn business data into dashboard visuals that make performance easier to interpret across categories, regions, costs, and sales channels. I used this project to explore how visual analytics can support strategic understanding by highlighting patterns that may not be obvious in raw tables alone. The dashboard format helped present key indicators in a more accessible and management-oriented way. This project adds a strong visual and business intelligence dimension to my portfolio by showing how data can be transformed into professional dashboard communication and practical strategic insight."
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
   },
   {
-    "objectID": "projects/project2_power_bi.html#reflection",
-    "href": "projects/project2_power_bi.html#reflection",
-    "title": "Project 2 — TechNova Power BI Analysis",
-    "section": "Reflection",
-    "text": "Reflection\nThis project helped me appreciate the importance of visual storytelling in business analysis. Instead of focusing only on calculations, I learned how layout, dashboard structure, and chart selection affect how clearly insights can be communicated. I became more aware that good analysis should not only be correct, but also easy for others to understand and use. Working with Power BI strengthened my ability to connect numbers with interpretation and to think about what information decision-makers need most. This project is important in my portfolio because it demonstrates that I can move from raw business data to a visual and professional presentation style that supports strategic discussion."
+    "objectID": "projects/project2_power_bi.html#active-python-example",
+    "href": "projects/project2_power_bi.html#active-python-example",
+    "title": "Project 2 — Power BI",
+    "section": "Active Python Example",
+    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
   },
   {
-    "objectID": "projects/project2_power_bi.html#skills-gained",
-    "href": "projects/project2_power_bi.html#skills-gained",
-    "title": "Project 2 — TechNova Power BI Analysis",
-    "section": "Skills Gained",
-    "text": "Skills Gained\nThrough this project, I developed stronger Power BI and dashboard design skills. I improved my ability to organise performance indicators into a clear visual structure and to compare profitability, cost, and category performance in a meaningful way. I also strengthened my skills in business interpretation, because the dashboard required me to explain not only what the visuals show, but also why the patterns matter. Another skill gained was data storytelling: I learned how to present findings in a way that is visually clear, concise, and relevant to management decisions. Overall, this project strengthened both my technical BI capability and my confidence in communicating insights professionally."
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "NoteKey Reflection\n\n\n\nBuilding this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.\n\n\n\n\nOne of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. I also became more aware of the importance of committing work regularly and using GitHub in a more organised way rather than treating it only as file storage.\n\n\n\nDeveloping the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.\n\n\n\nThrough the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.\n\n\n\nA major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to page rendering, navigation links, layout consistency, and content formatting. These challenges helped me become more patient, detail-oriented, and confident in problem-solving. I learned that building a good website often requires repeated testing and refinement rather than a single finished draft.\n\n\n\nThis ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation."
+  },
+  {
+    "objectID": "reflection.html#reflection",
+    "href": "reflection.html#reflection",
+    "title": "Reflection",
+    "section": "",
+    "text": "NoteKey Reflection\n\n\n\nBuilding this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.\n\n\n\n\nOne of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. I also became more aware of the importance of committing work regularly and using GitHub in a more organised way rather than treating it only as file storage.\n\n\n\nDeveloping the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.\n\n\n\nThrough the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.\n\n\n\nA major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to page rendering, navigation links, layout consistency, and content formatting. These challenges helped me become more patient, detail-oriented, and confident in problem-solving. I learned that building a good website often requires repeated testing and refinement rather than a single finished draft.\n\n\n\nThis ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation."
   }
 ]

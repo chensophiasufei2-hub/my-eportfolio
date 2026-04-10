@@ -1,0 +1,23 @@
+- title: "Project 1 — Park & Polish"
+  description: "Market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic."
+  author: "Sophia Sufei Chen"
+  date: "2025-04-20"
+  image: "../images/park-1.jpg"
+  categories: [Marketing, Excel, SQL]
+  path: project1_park_polish.qmd
+
+- title: "Project 2 — Power BI"
+  description: "Dashboard design, business storytelling, and performance visualisation using Power BI."
+  author: "Sophia Sufei Chen"
+  date: "2025-04-20"
+  image: "../images/powerbi-1.jpg"
+  categories: [Power BI, Business Intelligence, Visualisation]
+  path: project2_power_bi.qmd
+
+- title: "Project 3 — Risk Management"
+  description: "Excel-based quantitative analysis, hedging logic, and financial interpretation."
+  author: "Sophia Sufei Chen"
+  date: "2025-04-20"
+  image: "../images/risk-1.jpg"
+  categories: [Excel, Risk Analysis, Finance]
+  path: project3_risk_management.qmd

@@ -1,65 +1,26 @@
-<div id="scrollProgress"></div>
 ---
 title: ""
 page-layout: full
-body-classes: index-page
+about:
+  template: solana
+  image: images/profile.jpg
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sophiasufei-chen-389591233
+    - icon: envelope
+      text: DCU Email
+      href: mailto:chen.sophiasufei2@mail.dcu.ie
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/sooofeiii?igsh=cXkwYWNnMG9iNHU4&utm_source=qr
 ---
 
-::: {.hero-section #top}
-::: {.hero-left}
-::: {.eyebrow}
-Business Analytics Student | DCU
-:::
+## Sophia Sufei Chen
 
-# SOPHIA SUFEI CHEN
-
-::: {.hero-subtitle}
 Aspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English
-:::
-
-::: {.hero-buttons}
-[View Portfolio](projects/index.qmd){.primary-btn}
-[Download CV](cv.pdf){.secondary-btn target="_blank"}
-[LinkedIn](https://www.linkedin.com/in/sophiasufei-chen-389591233){.secondary-btn target="_blank"}
-:::
-
-::: {.hero-stats}
-::: {.stat-box}
-### 2026
-Expected Graduation
-:::
-
-::: {.stat-box}
-### ACCA
-In Progress
-:::
-
-::: {.stat-box}
-### PTB
-Internship Experience
-:::
-
-::: {.stat-box}
-### 2
-Languages
-:::
-:::
-:::
-
-::: {.hero-right}
-![](images/hero.jpg){.hero-image}
-:::
-:::
-
-## About Me {#about}
-
-::: {.about-grid}
-::: {.about-image}
-![](images/profile.jpg){.profile-image}
-:::
-
-::: {.about-text}
-### Professional Profile
 
 I am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.
 
@@ -67,8 +28,10 @@ In addition to my academic studies, I am also pursuing ACCA, which is helping me
 
 I am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.
 
-[More About Me](about_more.html){.secondary-btn .small-btn}
-:::
+::: {.hero-buttons}
+[View Portfolio](projects/index.html){.primary-btn}
+[Download CV](cv.pdf){.secondary-btn target="_blank"}
+[More About Me](about_more.html){.secondary-btn}
 :::
 
 ## Background {#background}
@@ -102,25 +65,26 @@ Jamovi
 ### Business Tools
 PowerPoint  
 Word  
-Xero
+Xero  
+Power BI
 :::
 
 ::: {.skill-card}
 ### Professional Skills
 Communication  
 Teamwork  
-Multitasking  
-Time Management
+Time Management  
+Problem-Solving
 :::
 
 ::: {.skill-card}
 ### Accounting & Finance
 Accounting Support  
 Financial Documentation  
-ACCA Learning
+ACCA Learning  
+Commercial Awareness
 :::
 :::
-
 
 ## Certs {#certs}
 
@@ -170,6 +134,7 @@ This portfolio highlights three main projects that reflect different dimensions 
 The projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.
 
 [Open Portfolio](projects/index.html){.primary-btn .small-btn}
+[Read Reflection](reflection.html){.secondary-btn .small-btn}
 :::
 
 ::: {.portfolio-image}
@@ -180,13 +145,13 @@ The projects demonstrate my experience with Excel, SQL-informed logic, Power BI 
 ## Media {#media}
 
 ::: {.media-intro}
-A curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.
+A curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.[^media]
 :::
 
 ::: {.media-grid}
 ::: {.media-card}
 <div class="video-wrap">
-<iframe src="https://www.youtube.com/embed/9fFQA-JOXA0" title="What Is Business Analytics? | Business: Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9fFQA-JOXA0" title="What Is Business Analytics?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Business Analytics
@@ -196,7 +161,7 @@ This video gives a clear introduction to business analytics and helps explain ho
 
 ::: {.media-card}
 <div class="video-wrap">
-<iframe src="https://www.youtube.com/embed/Dm8AEZECc5E" title="What Is ACCA? | Benefits of Obtaining the ACCA Qualification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Dm8AEZECc5E" title="What Is ACCA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### ACCA Learning
@@ -206,7 +171,7 @@ This resource supports my understanding of the ACCA pathway, its global value, a
 
 ::: {.media-card}
 <div class="video-wrap">
-<iframe src="https://www.youtube.com/embed/5ZQ65RbsAB8" title="Young women on social media ⏲️ 6 Minute English" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/5ZQ65RbsAB8" title="English Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### English Learning
@@ -214,6 +179,11 @@ This resource supports my understanding of the ACCA pathway, its global value, a
 This English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.
 :::
 :::
+
+
+
+[^media]: These videos are included as learning resources to support my independent professional development outside the classroom.
+
 
 ::: {.custom-footer #contact}
 ::: {.footer-grid}
@@ -252,16 +222,8 @@ Dublin, Ireland
 ::: {.footer-block .footer-right}
 #### Portfolio
 
-Designed by Sophia Sufei Chen | 2026
+Designed by Sophia Sufei Chen | 2026  
+Built with Quarto
 :::
 :::
 :::
-
-
-<button id="backToTop" aria-label="Back to top">↑</button>
-
-
-<div id="imageLightbox" class="image-lightbox">
-  <button class="lightbox-close" aria-label="Close">×</button>
-  <img id="lightboxImage" class="lightbox-image" src="" alt="Expanded certificate preview">
-</div>

@@ -1,19 +1,25 @@
 ---
-title: "Project 1 — Park Polish Marketing Analysis"
+title: "Project 1 — Park & Polish"
+description: "Market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic."
+author: "Sophia Sufei Chen"
+date: "2025-04-20"
+image: "../images/park-1.jpg"
+categories: [Marketing, Excel, SQL]
 ---
 
 ## Overview
 
-This project focuses on Park Polish as a marketing analysis case study. I used the project to explore how a new service concept can be positioned in a fragmented market through structured comparison, customer convenience analysis, and competitor review. The work centred on identifying market opportunity, understanding customer needs, and examining how a digitally focused car care service could differentiate itself from more traditional alternatives. I also used Excel and structured analytical logic to organise comparisons clearly and support decision-making. This project represents the strategic and commercial side of my portfolio and shows how I can connect marketing thinking with evidence-based analysis.
+This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept.
 
-![](../images/park-1.jpg)
+::: {.project-gallery}
+![](../images/park-1.jpg){.gallery-image}
+![](../images/park-2.jpg){.gallery-image}
+:::
 
 ## Reflection
 
-This project helped me understand that marketing strategy is stronger when it is supported by structure and evidence rather than only creative ideas. By working on market comparison and competitor positioning, I became more confident in identifying a clear value proposition and explaining why a business idea may succeed in a specific market context. I also learned how to present commercial analysis in a more professional way, turning broad ideas into specific strategic conclusions. This project is important in my portfolio because it shows that I can think beyond theory and apply analytical reasoning to a practical business concept with a clear customer and market focus.
-
-![](../images/park-2.jpg)
+This project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way.
 
 ## Skills Gained
 
-Through this project, I strengthened several useful skills. First, I improved my ability to use Excel to organise and compare business information clearly. Second, I developed stronger strategic thinking by breaking a market into categories such as competition, convenience, service offer, and positioning. Third, I practised structured analytical communication by presenting findings in a way that is concise and commercially relevant. Finally, this project strengthened my confidence in combining marketing analysis with data-informed logic. Even though it is not a purely technical project, it helped me develop an analytical mindset that supports business decision-making and portfolio presentation.
+The main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work.
