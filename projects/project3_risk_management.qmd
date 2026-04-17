@@ -1,4 +1,9 @@
 ---
+
+### 3）`projects/project3_risk_management.qmd`
+
+```markdown
+---
 title: "Project 3 — Risk Management"
 description: "Excel-based quantitative analysis, hedging logic, and financial interpretation."
 author: "Sophia Sufei Chen"
