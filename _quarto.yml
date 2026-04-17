@@ -32,4 +32,3 @@ format:
     theme: cosmo
     css: styles.scss
     toc: true
-    include-after-body: scripts.html
