@@ -1,24 +1,29 @@
 ---
 title: "Project 2 — Power BI"
-description: "Dashboard design, business storytelling, and performance visualisation using Power BI."
-author: "Sophia Sufei Chen"
-date: "2025-04-20"
-image: "../images/powerbi-1.jpg"
-categories: [Power BI, Business Intelligence, Visualisation]
+format: html
 ---
+
+# Project 2 — Power BI
+
+**Power BI**  
+**Business Intelligence**  
+**Visualisation**
+
+Dashboard design, business storytelling, and performance visualisation using Power BI.
 
 ## Overview
 
-This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns.
+This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience.
 
-::: {.project-gallery}
-![Power BI dashboard overview showing business performance indicators](../images/powerbi-1.jpg){.gallery-image}
-![](../images/powerbi-2.jpg){.gallery-image}
-:::
+This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns.
 
-## Active Python Example
+## Method
 
-The following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.
+The dashboard was designed to summarise business performance across categories and support quick comparison of key measures. I focused on selecting the most meaningful indicators, organising them into a clear layout, and presenting trends in a visually readable way. This process strengthened my understanding of how dashboard structure affects interpretation.
+
+## Python Example
+
+The Python example below demonstrates a simple category-level comparison that supports dashboard interpretation and business reporting.
 
 ```{python}
 #| echo: true
@@ -40,11 +45,17 @@ plt.xlabel("Category")
 plt.ylabel("Net Profit")
 plt.tight_layout()
 plt.show()
-This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.
+This example shows how categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.
+
+Key Learning
+
+A key learning point from this project was that visualisation is not only about making data attractive. It is about helping users notice patterns, compare results, and make decisions more efficiently. I learned that the choice of chart, layout, and metric all influence how useful a dashboard becomes.
 
 Reflection
 
-This project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.
+This project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience.
+
+Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.
 
 Skills Gained
 

@@ -7,26 +7,71 @@ format: html
 
 ## Overview
 
-This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk.
+This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk. It explores how structured analysis can support better decision-making and reduce uncertainty in business environments.
 
 ## Objectives
 
 - identify key business risks
 - evaluate likelihood and impact
+- compare risk priority levels
 - discuss mitigation strategies
 - reflect on the importance of structured risk planning
 
+## Risk Matrix Example
+
+The table below presents a simple example of how business risks can be assessed using likelihood and impact scores.
+
+| Risk | Likelihood (1-5) | Impact (1-5) | Risk Score |
+|---|---:|---:|---:|
+| Cash flow pressure | 4 | 5 | 20 |
+| Supply delay | 3 | 4 | 12 |
+| Data error | 4 | 3 | 12 |
+| Staff shortage | 3 | 3 | 9 |
+| Reputational issue | 2 | 5 | 10 |
+
+## Python Illustration
+
+```{python}
+#| echo: true
+#| code-fold: true
+#| fig-cap: "Illustrative risk score comparison"
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+risk_data = pd.DataFrame({
+    "Risk": ["Cash flow pressure", "Supply delay", "Data error", "Staff shortage", "Reputational issue"],
+    "Risk_Score": [20, 12, 12, 9, 10]
+})
+
+plt.figure(figsize=(9, 5))
+plt.bar(risk_data["Risk"], risk_data["Risk_Score"])
+plt.title("Illustrative Business Risk Scores")
+plt.xlabel("Risk Type")
+plt.ylabel("Risk Score")
+plt.xticks(rotation=20, ha="right")
+plt.tight_layout()
+plt.show()
+
+This chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify.
+
 ## Key Discussion
 
-Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability.
+Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability. In this example, cash flow pressure appears as the highest-priority issue because it combines high likelihood with high impact.
 
 ## Skills Demonstrated
 
 - critical analysis
-- professional communication
+
 - structured reporting
-- applied business understanding
+
+- business judgement
+
+- visual communication
+
+- risk prioritisation
 
 ## Reflection
 
-This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively.
+This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context.
+
