@@ -36,18 +36,14 @@ I am interested in opportunities in business analysis, marketing, finance suppor
 
 ## Background {#background}
 
-::: {.background-grid}
-::: {.background-image}
-![](images/background.jpg){.feature-image}
-:::
+::: {.background-wrap}
+![](images/background.jpg){.background-float}
 
-::: {.background-text}
 ### Academic and Professional Development
 
 My background combines university study with practical experience in customer service, retail operations, and accounting support. These experiences have helped me develop strong communication, teamwork, organisation, and problem-solving skills in professional environments.
 
 Through my studies, I have also developed growing confidence in business systems, analytics tools, and data-driven decision-making. I am especially interested in how businesses can improve performance through better use of information, digital tools, and customer understanding.
-:::
 :::
 
 ## Core Skills {#skills}
@@ -89,93 +85,124 @@ Commercial Awareness
 ## Certs {#certs}
 
 ::: {.certs-intro}
-I am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools. These certificates reflect my willingness to keep improving my self skills, technical confidence, and workplace readiness beyond the classroom.
+I am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools. These certificates reflect my willingness to keep improving my technical confidence, workplace readiness, and professional communication beyond the classroom.
 :::
 
-::: {.certs-grid}
-::: {.cert-card}
-### Kubicle Diploma — Excel
+::: {.certs-stack}
 
+::: {.cert-row}
+::: {.cert-left}
+<span class="cert-badge">Kubicle Diploma</span>
+
+### Excel
+:::
+
+::: {.cert-right}
 This certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills through independent online learning.
 
 [Open Certificate PDF](images/Kubicle-Diploma-Excel.pdf){.primary-btn target="_blank"}
 :::
+:::
 
-::: {.cert-card}
-### Kubicle Diploma — Word
+::: {.cert-row}
+::: {.cert-left}
+<span class="cert-badge">Kubicle Diploma</span>
 
+### Word
+:::
+
+::: {.cert-right}
 This certificate supports my professional development in document preparation, communication, and workplace presentation, showing my commitment to building useful office and business support skills.
 
 [Open Certificate PDF](images/Kubicle-Diploma-Word.pdf){.primary-btn target="_blank"}
 :::
+:::
 
-::: {.cert-card}
-### Kubicle Diploma — SQL
+::: {.cert-row}
+::: {.cert-left}
+<span class="cert-badge">Kubicle Diploma</span>
 
+### SQL
+:::
+
+::: {.cert-right}
 This certificate demonstrates my effort to strengthen database and query skills through structured online learning, supporting my longer-term development in analytics and data-focused work.
 
 [Open Certificate PDF](images/Kubicle-Diploma-SQL.pdf){.primary-btn target="_blank"}
 :::
 :::
 
+:::
+
 ## Portfolio {#projects}
 
-::: {.portfolio-grid}
-::: {.portfolio-text}
+::: {.portfolio-wrap}
+![](images/project.jpg){.portfolio-float}
+
 ### Selected Portfolio Work
 
 This portfolio highlights three main projects that reflect different dimensions of my academic and professional development: marketing analysis, business intelligence, and quantitative risk analysis. Together, they show how I combine structured thinking, analytical tools, and professional presentation.
 
 The projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.
 
+::: {.portfolio-buttons}
 [Open Portfolio](projects/index.qmd){.primary-btn .small-btn}
 [Read Reflection](reflection.qmd){.secondary-btn .small-btn}
-:::
-
-::: {.portfolio-image}
-![](images/project.jpg){.feature-image}
 :::
 :::
 
 ## Media {#media}
 
 ::: {.media-intro}
-A curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.[^media]
+A curated selection of video resources that support my learning in business analytics, ACCA, and professional English development.
 :::
 
-::: {.media-grid}
-::: {.media-card}
+::: {.media-stack}
+
+::: {.media-row}
+::: {.media-video}
 <div class="video-wrap">
 <iframe src="https://www.youtube.com/embed/9fFQA-JOXA0" title="What Is Business Analytics?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+:::
 
+::: {.media-text}
 ### Business Analytics
 
 This video gives a clear introduction to business analytics and helps explain how data can support better business decisions.
 :::
+:::
 
-::: {.media-card}
+::: {.media-row}
+::: {.media-video}
 <div class="video-wrap">
 <iframe src="https://www.youtube.com/embed/Dm8AEZECc5E" title="What Is ACCA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+:::
 
+::: {.media-text}
 ### ACCA Learning
 
 This resource supports my understanding of the ACCA pathway, its global value, and the professional opportunities it creates in finance and accounting.
 :::
+:::
 
-::: {.media-card}
+::: {.media-row}
+::: {.media-video}
 <div class="video-wrap">
 <iframe src="https://www.youtube.com/embed/5ZQ65RbsAB8" title="English Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+:::
 
+::: {.media-text}
 ### English Learning
 
 This English learning video helps me strengthen listening, vocabulary, and communication skills, which are important for study and professional growth.
 :::
 :::
 
-[^media]: These videos are included as learning resources to support my independent professional development outside the classroom.
+:::
+
 
 ::: {.custom-footer #contact}
 ::: {.footer-grid}
