@@ -158,7 +158,7 @@
     "href": "projects/project3_risk_management.html",
     "title": "Project 3: Risk Management",
     "section": "",
-    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk. It explores how structured analysis can support better decision-making and reduce uncertainty in business environments.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ncompare risk priority levels\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\nThe table below presents a simple example of how business risks can be assessed using likelihood and impact scores.\n\n\n\nRisk\nLikelihood (1-5)\nImpact (1-5)\nRisk Score\n\n\n\n\nCash flow pressure\n4\n5\n20\n\n\nSupply delay\n3\n4\n12\n\n\nData error\n4\n3\n12\n\n\nStaff shortage\n3\n3\n9\n\n\nReputational issue\n2\n5\n10\n\n\n\n\n\n\n#| echo: true #| code-fold: true #| fig-cap: “Illustrative risk score comparison”\nimport pandas as pd import matplotlib.pyplot as plt\nrisk_data = pd.DataFrame({ “Risk”: [“Cash flow pressure”, “Supply delay”, “Data error”, “Staff shortage”, “Reputational issue”], “Risk_Score”: [20, 12, 12, 9, 10] })\nplt.figure(figsize=(9, 5)) plt.bar(risk_data[“Risk”], risk_data[“Risk_Score”]) plt.title(“Illustrative Business Risk Scores”) plt.xlabel(“Risk Type”) plt.ylabel(“Risk Score”) plt.xticks(rotation=20, ha=“right”) plt.tight_layout() plt.show()\nThis chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify.\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability. In this example, cash flow pressure appears as the highest-priority issue because it combines high likelihood with high impact.\n\n\n\n\ncritical analysis\nstructured reporting\nbusiness judgement\nvisual communication\nrisk prioritisation\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context."
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk. It explores how structured analysis can support better decision-making and reduce uncertainty in business environments.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ncompare risk priority levels\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\n  \nThese visuals support the discussion by showing how risk-related information can be structured, compared, and interpreted in a more systematic way.\n\n\n\nThe table below presents a simple example of how business risks can be assessed using likelihood and impact scores.\n\n\n\nRisk\nLikelihood (1-5)\nImpact (1-5)\nRisk Score\n\n\n\n\nCash flow pressure\n4\n5\n20\n\n\nSupply delay\n3\n4\n12\n\n\nData error\n4\n3\n12\n\n\nStaff shortage\n3\n3\n9\n\n\nReputational issue\n2\n5\n10\n\n\n\n\n\n\n#| echo: true #| code-fold: true #| fig-cap: “Illustrative risk score comparison”\nimport pandas as pd import matplotlib.pyplot as plt\nrisk_data = pd.DataFrame({ “Risk”: [“Cash flow pressure”, “Supply delay”, “Data error”, “Staff shortage”, “Reputational issue”], “Risk_Score”: [20, 12, 12, 9, 10] })\nplt.figure(figsize=(9, 5)) plt.bar(risk_data[“Risk”], risk_data[“Risk_Score”]) plt.title(“Illustrative Business Risk Scores”) plt.xlabel(“Risk Type”) plt.ylabel(“Risk Score”) plt.xticks(rotation=20, ha=“right”) plt.tight_layout() plt.show()\nThis chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify.\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability. In this example, cash flow pressure appears as the highest-priority issue because it combines high likelihood with high impact.\n\n\n\n\ncritical analysis\nstructured reporting\nbusiness judgement\nvisual communication\nrisk prioritisation\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context."
   },
   {
     "objectID": "projects/project3_risk_management.html#overview",
@@ -173,6 +173,13 @@
     "title": "Project 3: Risk Management",
     "section": "",
     "text": "identify key business risks\nevaluate likelihood and impact\ncompare risk priority levels\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning"
+  },
+  {
+    "objectID": "projects/project3_risk_management.html#risk-project-screens",
+    "href": "projects/project3_risk_management.html#risk-project-screens",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "These visuals support the discussion by showing how risk-related information can be structured, compared, and interpreted in a more systematic way."
   },
   {
     "objectID": "projects/project3_risk_management.html#risk-matrix-example",
@@ -273,55 +280,6 @@
     "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
   },
   {
-    "objectID": "projects/project2_power_bi_before_upgrade.html",
-    "href": "projects/project2_power_bi_before_upgrade.html",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_power_bi_before_upgrade.html#overview",
-    "href": "projects/project2_power_bi_before_upgrade.html#overview",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_power_bi_before_upgrade.html#active-python-example",
-    "href": "projects/project2_power_bi_before_upgrade.html#active-python-example",
-    "title": "Project 2 — Power BI",
-    "section": "Active Python Example",
-    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
-  },
-  {
-    "objectID": "contact.html#contact-information",
-    "href": "contact.html#contact-information",
-    "title": "Contact",
-    "section": "",
-    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
-  },
-  {
-    "objectID": "contact.html#availability",
-    "href": "contact.html#availability",
-    "title": "Contact",
-    "section": "Availability",
-    "text": "Availability\n\nOpen to graduate opportunities\nOpen to internships\nOpen to professional networking\nInterested in business analysis, marketing, and finance support roles"
-  },
-  {
-    "objectID": "reflection.html",
-    "href": "reflection.html",
-    "title": "Reflection",
-    "section": "",
-    "text": "Reflection\nBuilding this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.\n\nGit and Version Control\nOne of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. Regular commits helped me track improvements across the homepage, project pages, navigation, and styling, and made it easier to recover earlier versions when something went wrong.\n\n\nQuarto and Website Development\nDeveloping the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.\n\n\nPython and Project Development\nThrough the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.\n\n\nChallenges and Problem Solving\nA major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to file paths, page rendering, YAML formatting, navigation links, and layout consistency. For example, when pages disappeared from the site or Quarto failed to render, I had to identify whether the problem came from the file itself, the navbar configuration, or the output folder. This taught me to troubleshoot more systematically and to test changes carefully before publishing.\n\n\nFuture Goals\nThis ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation."
-  },
-  {
     "objectID": "projects/project1_before_upgrade.html",
     "href": "projects/project1_before_upgrade.html",
     "title": "Project 1 — Park & Polish",
@@ -348,6 +306,111 @@
     "title": "Project 1 — Park & Polish",
     "section": "Skills Gained",
     "text": "Skills Gained\nThe main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Reflection\nBuilding this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.\n\nGit and Version Control\nOne of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. Regular commits helped me track improvements across the homepage, project pages, navigation, and styling, and made it easier to recover earlier versions when something went wrong.\n\n\nQuarto and Website Development\nDeveloping the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.\n\n\nPython and Project Development\nThrough the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.\n\n\nChallenges and Problem Solving\nA major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to file paths, page rendering, YAML formatting, navigation links, and layout consistency. For example, when pages disappeared from the site or Quarto failed to render, I had to identify whether the problem came from the file itself, the navbar configuration, or the output folder. This taught me to troubleshoot more systematically and to test changes carefully before publishing.\n\n\nFuture Goals\nThis ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
+  },
+  {
+    "objectID": "contact.html#contact-information",
+    "href": "contact.html#contact-information",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
+  },
+  {
+    "objectID": "contact.html#availability",
+    "href": "contact.html#availability",
+    "title": "Contact",
+    "section": "Availability",
+    "text": "Availability\n\nOpen to graduate opportunities\nOpen to internships\nOpen to professional networking\nInterested in business analysis, marketing, and finance support roles"
+  },
+  {
+    "objectID": "projects/project2_power_bi_before_upgrade.html",
+    "href": "projects/project2_power_bi_before_upgrade.html",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_power_bi_before_upgrade.html#overview",
+    "href": "projects/project2_power_bi_before_upgrade.html#overview",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_power_bi_before_upgrade.html#active-python-example",
+    "href": "projects/project2_power_bi_before_upgrade.html#active-python-example",
+    "title": "Project 2 — Power BI",
+    "section": "Active Python Example",
+    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html",
+    "href": "projects/project3_risk_management_before_images.html",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk. It explores how structured analysis can support better decision-making and reduce uncertainty in business environments.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ncompare risk priority levels\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\nThe table below presents a simple example of how business risks can be assessed using likelihood and impact scores.\n\n\n\nRisk\nLikelihood (1-5)\nImpact (1-5)\nRisk Score\n\n\n\n\nCash flow pressure\n4\n5\n20\n\n\nSupply delay\n3\n4\n12\n\n\nData error\n4\n3\n12\n\n\nStaff shortage\n3\n3\n9\n\n\nReputational issue\n2\n5\n10\n\n\n\n\n\n\n#| echo: true #| code-fold: true #| fig-cap: “Illustrative risk score comparison”\nimport pandas as pd import matplotlib.pyplot as plt\nrisk_data = pd.DataFrame({ “Risk”: [“Cash flow pressure”, “Supply delay”, “Data error”, “Staff shortage”, “Reputational issue”], “Risk_Score”: [20, 12, 12, 9, 10] })\nplt.figure(figsize=(9, 5)) plt.bar(risk_data[“Risk”], risk_data[“Risk_Score”]) plt.title(“Illustrative Business Risk Scores”) plt.xlabel(“Risk Type”) plt.ylabel(“Risk Score”) plt.xticks(rotation=20, ha=“right”) plt.tight_layout() plt.show()\nThis chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify.\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability. In this example, cash flow pressure appears as the highest-priority issue because it combines high likelihood with high impact.\n\n\n\n\ncritical analysis\nstructured reporting\nbusiness judgement\nvisual communication\nrisk prioritisation\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#overview",
+    "href": "projects/project3_risk_management_before_images.html#overview",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk. It explores how structured analysis can support better decision-making and reduce uncertainty in business environments."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#objectives",
+    "href": "projects/project3_risk_management_before_images.html#objectives",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "identify key business risks\nevaluate likelihood and impact\ncompare risk priority levels\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning"
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#risk-matrix-example",
+    "href": "projects/project3_risk_management_before_images.html#risk-matrix-example",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "The table below presents a simple example of how business risks can be assessed using likelihood and impact scores.\n\n\n\nRisk\nLikelihood (1-5)\nImpact (1-5)\nRisk Score\n\n\n\n\nCash flow pressure\n4\n5\n20\n\n\nSupply delay\n3\n4\n12\n\n\nData error\n4\n3\n12\n\n\nStaff shortage\n3\n3\n9\n\n\nReputational issue\n2\n5\n10"
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#python-illustration",
+    "href": "projects/project3_risk_management_before_images.html#python-illustration",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "#| echo: true #| code-fold: true #| fig-cap: “Illustrative risk score comparison”\nimport pandas as pd import matplotlib.pyplot as plt\nrisk_data = pd.DataFrame({ “Risk”: [“Cash flow pressure”, “Supply delay”, “Data error”, “Staff shortage”, “Reputational issue”], “Risk_Score”: [20, 12, 12, 9, 10] })\nplt.figure(figsize=(9, 5)) plt.bar(risk_data[“Risk”], risk_data[“Risk_Score”]) plt.title(“Illustrative Business Risk Scores”) plt.xlabel(“Risk Type”) plt.ylabel(“Risk Score”) plt.xticks(rotation=20, ha=“right”) plt.tight_layout() plt.show()\nThis chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#key-discussion",
+    "href": "projects/project3_risk_management_before_images.html#key-discussion",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability. In this example, cash flow pressure appears as the highest-priority issue because it combines high likelihood with high impact."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#skills-demonstrated",
+    "href": "projects/project3_risk_management_before_images.html#skills-demonstrated",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "critical analysis\nstructured reporting\nbusiness judgement\nvisual communication\nrisk prioritisation"
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_images.html#reflection",
+    "href": "projects/project3_risk_management_before_images.html#reflection",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context."
   },
   {
     "objectID": "projects/index.html",

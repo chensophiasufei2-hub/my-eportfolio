@@ -17,14 +17,6 @@ This project focuses on risk management principles and how organisations identif
 - discuss mitigation strategies
 - reflect on the importance of structured risk planning
 
-## Risk Project Screens
-
-![](../images/risk-1.jpg){fig-alt="Risk management project visual 1"}
-![](../images/risk-2.jpg){fig-alt="Risk management project visual 2"}
-![](../images/risk-3.jpg){fig-alt="Risk management project visual 3"}
-
-These visuals support the discussion by showing how risk-related information can be structured, compared, and interpreted in a more systematic way.
-
 ## Risk Matrix Example
 
 The table below presents a simple example of how business risks can be assessed using likelihood and impact scores.

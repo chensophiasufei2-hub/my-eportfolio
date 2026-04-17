@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Portfolio – Sophia Chen ePortfolio</title>
+<title>Project 3: Risk Management – Sophia Chen ePortfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,65 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.scss">
 </head>
@@ -214,16 +154,25 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-directory" id="toc-project-directory" class="nav-link active" data-scroll-target="#project-directory">Project Directory</a></li>
+  <li><a href="#project-3-risk-management" id="toc-project-3-risk-management" class="nav-link active" data-scroll-target="#project-3-risk-management">Project 3: Risk Management</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#risk-matrix-example" id="toc-risk-matrix-example" class="nav-link" data-scroll-target="#risk-matrix-example">Risk Matrix Example</a></li>
+  <li><a href="#python-illustration" id="toc-python-illustration" class="nav-link" data-scroll-target="#python-illustration">Python Illustration</a></li>
+  <li><a href="#key-discussion" id="toc-key-discussion" class="nav-link" data-scroll-target="#key-discussion">Key Discussion</a></li>
+  <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills Demonstrated</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  </ul></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2U=">Business Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhjZWw=">Excel <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RmluYW5jZQ==">Finance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFya2V0aW5n">Marketing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG93ZXIlMjBCSQ==">Power BI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmlzayUyMEFuYWx5c2lz">Risk Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1FM">SQL <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzdWFsaXNhdGlvbg==">Visualisation <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Portfolio</h1>
+<h1 class="title">Project 3: Risk Management</h1>
 </div>
 
 
@@ -240,94 +189,99 @@ window.Quarto = {
 </header>
 
 
-<section id="project-directory" class="level2">
-<h2 class="anchored" data-anchor-id="project-directory">Project Directory</h2>
-<p>This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis.</p>
-
+<section id="project-3-risk-management" class="level1">
+<h1>Project 3: Risk Management</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk. It explores how structured analysis can support better decision-making and reduce uncertainty in business environments.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li>identify key business risks</li>
+<li>evaluate likelihood and impact</li>
+<li>compare risk priority levels</li>
+<li>discuss mitigation strategies</li>
+<li>reflect on the importance of structured risk planning</li>
+</ul>
+</section>
+<section id="risk-matrix-example" class="level2">
+<h2 class="anchored" data-anchor-id="risk-matrix-example">Risk Matrix Example</h2>
+<p>The table below presents a simple example of how business risks can be assessed using likelihood and impact scores.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th style="text-align: right;">Likelihood (1-5)</th>
+<th style="text-align: right;">Impact (1-5)</th>
+<th style="text-align: right;">Risk Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cash flow pressure</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td>Supply delay</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="odd">
+<td>Data error</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td>Staff shortage</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td>Reputational issue</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="python-illustration" class="level2">
+<h2 class="anchored" data-anchor-id="python-illustration">Python Illustration</h2>
+<p>#| echo: true #| code-fold: true #| fig-cap: “Illustrative risk score comparison”</p>
+<p>import pandas as pd import matplotlib.pyplot as plt</p>
+<p>risk_data = pd.DataFrame({ “Risk”: [“Cash flow pressure”, “Supply delay”, “Data error”, “Staff shortage”, “Reputational issue”], “Risk_Score”: [20, 12, 12, 9, 10] })</p>
+<p>plt.figure(figsize=(9, 5)) plt.bar(risk_data[“Risk”], risk_data[“Risk_Score”]) plt.title(“Illustrative Business Risk Scores”) plt.xlabel(“Risk Type”) plt.ylabel(“Risk Score”) plt.xticks(rotation=20, ha=“right”) plt.tight_layout() plt.show()</p>
+<p>This chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify.</p>
+</section>
+<section id="key-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="key-discussion">Key Discussion</h2>
+<p>Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability. In this example, cash flow pressure appears as the highest-priority issue because it combines high likelihood with high impact.</p>
+</section>
+<section id="skills-demonstrated" class="level2">
+<h2 class="anchored" data-anchor-id="skills-demonstrated">Skills Demonstrated</h2>
+<ul>
+<li><p>critical analysis</p></li>
+<li><p>structured reporting</p></li>
+<li><p>business judgement</p></li>
+<li><p>visual communication</p></li>
+<li><p>risk prioritisation</p></li>
+</ul>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context.</p>
 
 
 </section>
+</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TWFya2V0aW5nJTJDRXhjZWwlMkNTUUw=" data-listing-date-sort="1745103600000" data-listing-file-modified-sort="1776462066763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="447">
-<a href="../projects/project1_park_polish.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/park-1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Project 1 — Park &amp; Polish
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFya2V0aW5n'); return false;">Marketing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">Excel</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1FM'); return false;">SQL</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UG93ZXIlMjBCSSUyQ0J1c2luZXNzJTIwSW50ZWxsaWdlbmNlJTJDVmlzdWFsaXNhdGlvbg==" data-listing-date-sort="1745103600000" data-listing-file-modified-sort="1776462174490" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
-<a href="../projects/project2_power_bi.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/powerbi-1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Project 2 — Power BI
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSQ=='); return false;">Power BI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2U='); return false;">Business Intelligence</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VmlzdWFsaXNhdGlvbg=='); return false;">Visualisation</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Dashboard design, business storytelling, and performance visualisation using Power BI.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RXhjZWwlMkNSaXNrJTIwQW5hbHlzaXMlMkNGaW5hbmNl" data-listing-date-sort="1745103600000" data-listing-file-modified-sort="1776462255314" data-listing-reading-time-sort="2" data-listing-word-count-sort="362">
-<a href="../projects/project3_risk_management.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/risk-1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Project 3 — Risk Management
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">Excel</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmlzayUyMEFuYWx5c2lz'); return false;">Risk Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW5jZQ=='); return false;">Finance</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Excel-based quantitative analysis, hedging logic, and financial interpretation.</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
