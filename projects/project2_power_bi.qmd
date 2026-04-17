@@ -52,20 +52,18 @@ plt.xlabel("Category")
 plt.ylabel("Net Profit")
 plt.tight_layout()
 plt.show()
-
 This example shows how categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.
 
-## Key Learning
+Key Learning
 
 A key learning point from this project was that visualisation is not only about making data attractive. It is about helping users notice patterns, compare results, and make decisions more efficiently. I learned that the choice of chart, layout, and metric all influence how useful a dashboard becomes.
 
-## Reflection
+Reflection
 
 This project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience.
 
 Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.
 
-## Skills Gained
+Skills Gained
 
 Through this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters.
-

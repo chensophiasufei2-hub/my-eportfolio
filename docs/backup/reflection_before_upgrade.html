@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sophia Sufei Chen">
-<meta name="dcterms.date" content="2025-04-20">
-<meta name="description" content="Dashboard design, business storytelling, and performance visualisation using Power BI.">
 
-<title>Project 2 — Power BI – Sophia Chen ePortfolio</title>
+<title>Reflection – Sophia Chen ePortfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -154,8 +151,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#active-python-example" id="toc-active-python-example" class="nav-link" data-scroll-target="#active-python-example">Active Python Example</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link active" data-scroll-target="#reflection">Reflection</a>
+  <ul class="collapse">
+  <li><a href="#git-and-version-control" id="toc-git-and-version-control" class="nav-link" data-scroll-target="#git-and-version-control">Git and Version Control</a></li>
+  <li><a href="#quarto-and-website-development" id="toc-quarto-and-website-development" class="nav-link" data-scroll-target="#quarto-and-website-development">Quarto and Website Development</a></li>
+  <li><a href="#python-and-project-development" id="toc-python-and-project-development" class="nav-link" data-scroll-target="#python-and-project-development">Python and Project Development</a></li>
+  <li><a href="#challenges-and-problem-solving" id="toc-challenges-and-problem-solving" class="nav-link" data-scroll-target="#challenges-and-problem-solving">Challenges and Problem Solving</a></li>
+  <li><a href="#future-goals" id="toc-future-goals" class="nav-link" data-scroll-target="#future-goals">Future Goals</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -164,36 +167,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project 2 — Power BI</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Power BI</div>
-    <div class="quarto-category">Business Intelligence</div>
-    <div class="quarto-category">Visualisation</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Dashboard design, business storytelling, and performance visualisation using Power BI.
-  </div>
+<h1 class="title">Reflection</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sophia Sufei Chen </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 20, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -203,30 +184,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns.</p>
-<div class="project-gallery">
-<p><img src="../images/powerbi-1.jpg" class="gallery-image img-fluid" alt="Power BI dashboard overview showing business performance indicators"> <img src="../images/powerbi-2.jpg" class="gallery-image img-fluid"></p>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key Reflection
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Building this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.</p>
+</div>
+</div>
+<section id="git-and-version-control" class="level3">
+<h3 class="anchored" data-anchor-id="git-and-version-control">Git and Version Control</h3>
+<p>One of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. I also became more aware of the importance of committing work regularly and using GitHub in a more organised way rather than treating it only as file storage.</p>
 </section>
-<section id="active-python-example" class="level2">
-<h2 class="anchored" data-anchor-id="active-python-example">Active Python Example</h2>
-<p>The following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.</p>
-<p>#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”</p>
-<p>import pandas as pd import matplotlib.pyplot as plt</p>
-<p>data = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })</p>
-<p>plt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.</p>
-<p>Reflection</p>
-<p>This project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.</p>
-<p>Skills Gained</p>
-<p>Through this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters.</p>
+<section id="quarto-and-website-development" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-and-website-development">Quarto and Website Development</h3>
+<p>Developing the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.</p>
+</section>
+<section id="python-and-project-development" class="level3">
+<h3 class="anchored" data-anchor-id="python-and-project-development">Python and Project Development</h3>
+<p>Through the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.</p>
+</section>
+<section id="challenges-and-problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="challenges-and-problem-solving">Challenges and Problem Solving</h3>
+<p>A major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to page rendering, navigation links, layout consistency, and content formatting. These challenges helped me become more patient, detail-oriented, and confident in problem-solving. I learned that building a good website often requires repeated testing and refinement rather than a single finished draft.</p>
+</section>
+<section id="future-goals" class="level3">
+<h3 class="anchored" data-anchor-id="future-goals">Future Goals</h3>
+<p>This ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
-<script src="scripts.js"></script>
+<script src="../my-eportfolio/scripts.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
