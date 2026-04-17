@@ -10,14 +10,10 @@ website:
         text: Home
       - href: about_more.qmd
         text: About
+      - href: reflection.qmd
+        text: Reflection
       - href: cv.qmd
         text: CV
-      - text: More
-        menu:
-          - href: reflection.qmd
-            text: Reflection
-          - href: contact.qmd
-            text: Contact
       - text: Portfolio
         menu:
           - href: projects/project1_park_polish.qmd
@@ -26,6 +22,10 @@ website:
             text: Project 2 Power BI
           - href: projects/project3_risk_management.qmd
             text: Project 3 Risk Management
+      - href: https://github.com/chensophiasufei2-hub/my-eportfolio
+        text: GitHub
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
