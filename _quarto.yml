@@ -1,56 +1,34 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - index.qmd
-    - about.qmd
-    - about_more.qmd
-    - cv.qmd
-    - projects/*.qmd
-    - reflection.qmd
-    - contact.qmd
 
 website:
   title: "Sophia Chen ePortfolio"
-  favicon: images/favicon.png
   navbar:
-    logo: images/logo.png
     left:
-      - text: "Home"
-        href: index.qmd
-      - text: "About"
-        href: index.qmd#about
-      - text: "Background"
-        href: index.qmd#background
-      - text: "Skills"
-        href: index.qmd#skills
-      - text: "Certs"
-        href: index.qmd#certs
-      - text: "Portfolio"
+      - href: index.qmd
+        text: Home
+      - href: about_more.qmd
+        text: About
+      - href: cv.qmd
+        text: CV
+      - text: More
         menu:
-          - text: "Project Directory"
-            href: projects/index.qmd
-          - text: "Project 1 — Park Polish"
-            href: projects/project1_park_polish.qmd
-          - text: "Project 2 — Power BI"
-            href: projects/project2_power_bi.qmd
-          - text: "Project 3 — Risk Management"
-            href: projects/project3_risk_management.qmd
-      - text: "Reflection"
-        href: reflection.qmd
-      - text: "CV"
-        href: cv.pdf
-        target: _blank
-      - text: "GitHub"
-        href: https://github.com/chensophiasufei2-hub/my-eportfolio
-        target: _blank
-      - text: "Contact"
-        href: contact.qmd
+          - href: reflection.qmd
+            text: Reflection
+          - href: contact.qmd
+            text: Contact
+      - text: Portfolio
+        menu:
+          - href: projects/project1_park_polish.qmd
+            text: Project 1 Park Polish
+          - href: projects/project2_power_bi.qmd
+            text: Project 2 Power BI
+          - href: projects/project3_risk_management.qmd
+            text: Project 3 Risk Management
 
 format:
   html:
     theme: cosmo
     css: styles.scss
-    include-after-body: scripts.html
-    toc: false
-    smooth-scroll: true
+    toc: true

@@ -29,9 +29,9 @@ In addition to my academic studies, I am also pursuing ACCA, which is helping me
 I am interested in opportunities in business analysis, marketing, finance support, and graduate roles where I can continue learning, contribute effectively, and grow in a professional environment.
 
 ::: {.hero-buttons}
-[View Portfolio](projects/index.qmd){.primary-btn}
+[View Portfolio](projects/index.html){.primary-btn}
 [Download CV](cv.pdf){.secondary-btn target="_blank"}
-[More About Me](about_more.qmd){.secondary-btn}
+[More About Me](about_more.html){.secondary-btn}
 :::
 
 ## Background {#background}
@@ -133,8 +133,8 @@ This portfolio highlights three main projects that reflect different dimensions 
 
 The projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.
 
-[Open Portfolio](projects/index.qmd){.primary-btn .small-btn}
-[Read Reflection](reflection.qmd){.secondary-btn .small-btn}
+[Open Portfolio](projects/index.html){.primary-btn .small-btn}
+[Read Reflection](reflection.html){.secondary-btn .small-btn}
 :::
 
 ::: {.portfolio-image}
@@ -180,7 +180,10 @@ This English learning video helps me strengthen listening, vocabulary, and commu
 :::
 :::
 
+
+
 [^media]: These videos are included as learning resources to support my independent professional development outside the classroom.
+
 
 ::: {.custom-footer #contact}
 ::: {.footer-grid}
