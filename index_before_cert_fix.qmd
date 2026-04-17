@@ -94,29 +94,34 @@ I am committed to continuous online learning and professional self-development. 
 
 ::: {.certs-grid}
 ::: {.cert-card}
+<img src="images/Kubicle-Diploma-Excel.jpg" alt="Kubicle Diploma Excel" class="cert-thumb lightbox-trigger">
+
 ### Kubicle Diploma — Excel
 
 This certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills through independent online learning.
-
-[Open Certificate PDF](images/Kubicle-Diploma-Excel.pdf){.primary-btn target="_blank"}
 :::
 
 ::: {.cert-card}
+<img src="images/Kubicle-Diploma-Word.jpg" alt="Kubicle Diploma Word" class="cert-thumb lightbox-trigger">
+
 ### Kubicle Diploma — Word
 
 This certificate supports my professional development in document preparation, communication, and workplace presentation, showing my commitment to building useful office and business support skills.
-
-[Open Certificate PDF](images/Kubicle-Diploma-Word.pdf){.primary-btn target="_blank"}
 :::
 
 ::: {.cert-card}
+<img src="images/Kubicle-Diploma-SQL.jpg" alt="Kubicle Diploma SQL" class="cert-thumb lightbox-trigger">
+
 ### Kubicle Diploma — SQL
 
 This certificate demonstrates my effort to strengthen database and query skills through structured online learning, supporting my longer-term development in analytics and data-focused work.
+:::
+:::
 
-[Open Certificate PDF](images/Kubicle-Diploma-SQL.pdf){.primary-btn target="_blank"}
-:::
-:::
+<div id="imageLightbox" class="image-lightbox">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <img id="lightboxImage" class="lightbox-image" src="" alt="Expanded certificate preview">
+</div>
 
 ## Portfolio {#projects}
 
