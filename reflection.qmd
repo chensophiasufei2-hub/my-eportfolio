@@ -1,18 +1,15 @@
 ---
 title: "Reflection"
+format: html
 ---
 
-## Reflection
-
-::: {.callout-note}
-## Key Reflection
+# Reflection
 
 Building this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.
-:::
 
 ### Git and Version Control
 
-One of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. I also became more aware of the importance of committing work regularly and using GitHub in a more organised way rather than treating it only as file storage.
+One of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. Regular commits helped me track improvements across the homepage, project pages, navigation, and styling, and made it easier to recover earlier versions when something went wrong.
 
 ### Quarto and Website Development
 
@@ -24,7 +21,7 @@ Through the projects in this portfolio, I developed a stronger understanding of 
 
 ### Challenges and Problem Solving
 
-A major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to page rendering, navigation links, layout consistency, and content formatting. These challenges helped me become more patient, detail-oriented, and confident in problem-solving. I learned that building a good website often requires repeated testing and refinement rather than a single finished draft.
+A major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to file paths, page rendering, YAML formatting, navigation links, and layout consistency. For example, when pages disappeared from the site or Quarto failed to render, I had to identify whether the problem came from the file itself, the navbar configuration, or the output folder. This taught me to troubleshoot more systematically and to test changes carefully before publishing.
 
 ### Future Goals
 
