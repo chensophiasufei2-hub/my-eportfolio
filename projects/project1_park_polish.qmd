@@ -1,24 +1,55 @@
 ---
 title: "Project 1 — Park & Polish"
-description: "Market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic."
-author: "Sophia Sufei Chen"
+format: html
 date: "2025-04-20"
-image: "../images/park-1.jpg"
-categories: [Marketing, Excel, SQL]
 ---
+
+# Project 1 — Park & Polish
+
+**Marketing**  
+**Excel**  
+**SQL**
+
+Market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.
 
 ## Overview
 
-This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept.
+This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way.
 
-::: {.project-gallery}
-![](../images/park-1.jpg){.gallery-image}
-![](../images/park-2.jpg){.gallery-image}
-:::
+A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based planning, comparison logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept.
+
+## Analytical Approach
+
+To evaluate the business idea, I focused on four areas:
+
+- customer need and service demand
+- competitor positioning
+- pricing and service structure
+- operational feasibility
+
+Excel supported the organisation of service categories, simple comparisons, and planning assumptions. SQL-informed thinking also influenced the way I structured information, grouped comparisons, and considered how business data could later be queried and analysed more formally.
+
+## Example Comparison Framework
+
+| Area | Example Question | Business Value |
+|---|---|---|
+| Customer demand | What service would customers use most often? | helps shape service focus |
+| Competitor review | How do similar businesses position themselves? | supports differentiation |
+| Pricing logic | Which package structure is easiest to understand? | improves customer clarity |
+| Operations | What resources are needed to deliver the service? | supports feasibility |
+
+![](../images/park-1.jpg){fig-alt="Project 1 business concept visual"}
+![](../images/park-2.jpg){fig-alt="Project 1 planning or marketing visual"}
+
+## Key Learning
+
+This project taught me that a business concept becomes much stronger when it is supported by structured analysis rather than only creativity. I learned to think more carefully about market relevance, practical implementation, and how to organise information clearly for presentation.
 
 ## Reflection
 
-This project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way.
+This project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand.
+
+Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way.
 
 ## Skills Gained
 

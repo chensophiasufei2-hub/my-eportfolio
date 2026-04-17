@@ -126,228 +126,32 @@
     "text": "Footnotes\n\n\nThese videos are included as learning resources to support my independent professional development outside the classroom.↩︎"
   },
   {
-    "objectID": "projects/project3_before_upgrade.html",
-    "href": "projects/project3_before_upgrade.html",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability.\n\n\n\n\ncritical analysis\nprofessional communication\nstructured reporting\napplied business understanding\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
-  },
-  {
-    "objectID": "projects/project3_before_upgrade.html#overview",
-    "href": "projects/project3_before_upgrade.html#overview",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk."
-  },
-  {
-    "objectID": "projects/project3_before_upgrade.html#objectives",
-    "href": "projects/project3_before_upgrade.html#objectives",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "identify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning"
-  },
-  {
-    "objectID": "projects/project3_before_upgrade.html#key-discussion",
-    "href": "projects/project3_before_upgrade.html#key-discussion",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability."
-  },
-  {
-    "objectID": "projects/project3_before_upgrade.html#skills-demonstrated",
-    "href": "projects/project3_before_upgrade.html#skills-demonstrated",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "critical analysis\nprofessional communication\nstructured reporting\napplied business understanding"
-  },
-  {
-    "objectID": "projects/project3_before_upgrade.html#reflection",
-    "href": "projects/project3_before_upgrade.html#reflection",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
-  },
-  {
-    "objectID": "projects/project2_power_bi.html",
-    "href": "projects/project2_power_bi.html",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "Power BI\nBusiness Intelligence\nVisualisation\nDashboard design, business storytelling, and performance visualisation using Power BI.\n\n\nThis project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience.\nThis project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns.\n\n\n\nThe dashboard was designed to summarise business performance across categories and support quick comparison of key measures. I focused on selecting the most meaningful indicators, organising them into a clear layout, and presenting trends in a visually readable way. This process strengthened my understanding of how dashboard structure affects interpretation.\n\n\n\nThe Python example below demonstrates a simple category-level comparison that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This example shows how categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nKey Learning\nA key learning point from this project was that visualisation is not only about making data attractive. It is about helping users notice patterns, compare results, and make decisions more efficiently. I learned that the choice of chart, layout, and metric all influence how useful a dashboard becomes.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience.\nWorking on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
-  },
-  {
-    "objectID": "projects/project2_power_bi.html#overview",
-    "href": "projects/project2_power_bi.html#overview",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience.\nThis project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_power_bi.html#method",
-    "href": "projects/project2_power_bi.html#method",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "The dashboard was designed to summarise business performance across categories and support quick comparison of key measures. I focused on selecting the most meaningful indicators, organising them into a clear layout, and presenting trends in a visually readable way. This process strengthened my understanding of how dashboard structure affects interpretation."
-  },
-  {
-    "objectID": "projects/project2_power_bi.html#python-example",
-    "href": "projects/project2_power_bi.html#python-example",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "The Python example below demonstrates a simple category-level comparison that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This example shows how categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nKey Learning\nA key learning point from this project was that visualisation is not only about making data attractive. It is about helping users notice patterns, compare results, and make decisions more efficiently. I learned that the choice of chart, layout, and metric all influence how useful a dashboard becomes.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience.\nWorking on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis."
-  },
-  {
-    "objectID": "projects/index.html#project-directory",
-    "href": "projects/index.html#project-directory",
-    "title": "Portfolio",
-    "section": "",
-    "text": "This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis."
-  },
-  {
-    "objectID": "projects/project1_before_upgrade.html",
-    "href": "projects/project1_before_upgrade.html",
+    "objectID": "projects/project1_park_polish_before_upgrade.html",
+    "href": "projects/project1_park_polish_before_upgrade.html",
     "title": "Project 1 — Park & Polish",
     "section": "",
     "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
   },
   {
-    "objectID": "projects/project1_before_upgrade.html#overview",
-    "href": "projects/project1_before_upgrade.html#overview",
+    "objectID": "projects/project1_park_polish_before_upgrade.html#overview",
+    "href": "projects/project1_park_polish_before_upgrade.html#overview",
     "title": "Project 1 — Park & Polish",
     "section": "",
     "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
   },
   {
-    "objectID": "projects/project1_before_upgrade.html#reflection",
-    "href": "projects/project1_before_upgrade.html#reflection",
+    "objectID": "projects/project1_park_polish_before_upgrade.html#reflection",
+    "href": "projects/project1_park_polish_before_upgrade.html#reflection",
     "title": "Project 1 — Park & Polish",
     "section": "Reflection",
     "text": "Reflection\nThis project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way."
   },
   {
-    "objectID": "projects/project1_before_upgrade.html#skills-gained",
-    "href": "projects/project1_before_upgrade.html#skills-gained",
+    "objectID": "projects/project1_park_polish_before_upgrade.html#skills-gained",
+    "href": "projects/project1_park_polish_before_upgrade.html#skills-gained",
     "title": "Project 1 — Park & Polish",
     "section": "Skills Gained",
     "text": "Skills Gained\nThe main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
-  },
-  {
-    "objectID": "reflection.html",
-    "href": "reflection.html",
-    "title": "Reflection",
-    "section": "",
-    "text": "Reflection\nBuilding this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.\n\nGit and Version Control\nOne of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. Regular commits helped me track improvements across the homepage, project pages, navigation, and styling, and made it easier to recover earlier versions when something went wrong.\n\n\nQuarto and Website Development\nDeveloping the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.\n\n\nPython and Project Development\nThrough the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.\n\n\nChallenges and Problem Solving\nA major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to file paths, page rendering, YAML formatting, navigation links, and layout consistency. For example, when pages disappeared from the site or Quarto failed to render, I had to identify whether the problem came from the file itself, the navbar configuration, or the output folder. This taught me to troubleshoot more systematically and to test changes carefully before publishing.\n\n\nFuture Goals\nThis ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
-  },
-  {
-    "objectID": "contact.html#contact-information",
-    "href": "contact.html#contact-information",
-    "title": "Contact",
-    "section": "",
-    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
-  },
-  {
-    "objectID": "contact.html#availability",
-    "href": "contact.html#availability",
-    "title": "Contact",
-    "section": "Availability",
-    "text": "Availability\n\nOpen to graduate opportunities\nOpen to internships\nOpen to professional networking\nInterested in business analysis, marketing, and finance support roles"
-  },
-  {
-    "objectID": "projects/project2_power_bi_before_upgrade.html",
-    "href": "projects/project2_power_bi_before_upgrade.html",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_power_bi_before_upgrade.html#overview",
-    "href": "projects/project2_power_bi_before_upgrade.html#overview",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_power_bi_before_upgrade.html#active-python-example",
-    "href": "projects/project2_power_bi_before_upgrade.html#active-python-example",
-    "title": "Project 2 — Power BI",
-    "section": "Active Python Example",
-    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
-  },
-  {
-    "objectID": "projects/project2_before_upgrade.html",
-    "href": "projects/project2_before_upgrade.html",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_before_upgrade.html#overview",
-    "href": "projects/project2_before_upgrade.html#overview",
-    "title": "Project 2 — Power BI",
-    "section": "",
-    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
-  },
-  {
-    "objectID": "projects/project2_before_upgrade.html#active-python-example",
-    "href": "projects/project2_before_upgrade.html#active-python-example",
-    "title": "Project 2 — Power BI",
-    "section": "Active Python Example",
-    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
-  },
-  {
-    "objectID": "projects/project3_risk_management_before_upgrade.html",
-    "href": "projects/project3_risk_management_before_upgrade.html",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability.\n\n\n\n\ncritical analysis\nprofessional communication\nstructured reporting\napplied business understanding\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
-  },
-  {
-    "objectID": "projects/project3_risk_management_before_upgrade.html#overview",
-    "href": "projects/project3_risk_management_before_upgrade.html#overview",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk."
-  },
-  {
-    "objectID": "projects/project3_risk_management_before_upgrade.html#objectives",
-    "href": "projects/project3_risk_management_before_upgrade.html#objectives",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "identify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning"
-  },
-  {
-    "objectID": "projects/project3_risk_management_before_upgrade.html#key-discussion",
-    "href": "projects/project3_risk_management_before_upgrade.html#key-discussion",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability."
-  },
-  {
-    "objectID": "projects/project3_risk_management_before_upgrade.html#skills-demonstrated",
-    "href": "projects/project3_risk_management_before_upgrade.html#skills-demonstrated",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "critical analysis\nprofessional communication\nstructured reporting\napplied business understanding"
-  },
-  {
-    "objectID": "projects/project3_risk_management_before_upgrade.html#reflection",
-    "href": "projects/project3_risk_management_before_upgrade.html#reflection",
-    "title": "Project 3: Risk Management",
-    "section": "",
-    "text": "This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
   },
   {
     "objectID": "projects/project3_risk_management.html",
@@ -406,32 +210,277 @@
     "text": "This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively. It also showed me that risk management is not only theoretical. When risks are organised, scored, and interpreted clearly, they become much easier to discuss and manage in a practical business context."
   },
   {
+    "objectID": "projects/project3_risk_management_before_upgrade.html",
+    "href": "projects/project3_risk_management_before_upgrade.html",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability.\n\n\n\n\ncritical analysis\nprofessional communication\nstructured reporting\napplied business understanding\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_upgrade.html#overview",
+    "href": "projects/project3_risk_management_before_upgrade.html#overview",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_upgrade.html#objectives",
+    "href": "projects/project3_risk_management_before_upgrade.html#objectives",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "identify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning"
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_upgrade.html#key-discussion",
+    "href": "projects/project3_risk_management_before_upgrade.html#key-discussion",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability."
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_upgrade.html#skills-demonstrated",
+    "href": "projects/project3_risk_management_before_upgrade.html#skills-demonstrated",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "critical analysis\nprofessional communication\nstructured reporting\napplied business understanding"
+  },
+  {
+    "objectID": "projects/project3_risk_management_before_upgrade.html#reflection",
+    "href": "projects/project3_risk_management_before_upgrade.html#reflection",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
+  },
+  {
+    "objectID": "projects/project2_before_upgrade.html",
+    "href": "projects/project2_before_upgrade.html",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_before_upgrade.html#overview",
+    "href": "projects/project2_before_upgrade.html#overview",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_before_upgrade.html#active-python-example",
+    "href": "projects/project2_before_upgrade.html#active-python-example",
+    "title": "Project 2 — Power BI",
+    "section": "Active Python Example",
+    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
+  },
+  {
+    "objectID": "projects/project2_power_bi_before_upgrade.html",
+    "href": "projects/project2_power_bi_before_upgrade.html",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_power_bi_before_upgrade.html#overview",
+    "href": "projects/project2_power_bi_before_upgrade.html#overview",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience. This project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_power_bi_before_upgrade.html#active-python-example",
+    "href": "projects/project2_power_bi_before_upgrade.html#active-python-example",
+    "title": "Project 2 — Power BI",
+    "section": "Active Python Example",
+    "text": "Active Python Example\nThe following Python example demonstrates a simple category-level business comparison. It reflects the kind of structured thinking that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This active Python example demonstrates how performance categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience. Working on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
+  },
+  {
+    "objectID": "contact.html#contact-information",
+    "href": "contact.html#contact-information",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to graduate opportunities, internships, and professional connections in business analysis, marketing, and finance support.\n\n\n\nName: Sophia Sufei Chen\nLocation: Dublin, Ireland\nDCU Email: chen.sophiasufei2@mail.dcu.ie\nPersonal Email: chensophia0921@gmail.com\nLinkedIn: Sophia Sufei Chen\n\n\n\nProfessional and academic references are available upon request.\nThis portfolio reflects my academic work, technical development, and professional learning. Please feel free to contact me if you would like further information about my background, internship experience, or project work."
+  },
+  {
+    "objectID": "contact.html#availability",
+    "href": "contact.html#availability",
+    "title": "Contact",
+    "section": "Availability",
+    "text": "Availability\n\nOpen to graduate opportunities\nOpen to internships\nOpen to professional networking\nInterested in business analysis, marketing, and finance support roles"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Reflection\nBuilding this ePortfolio helped me understand that technical skills, presentation, and professional identity are closely connected. I learned not only how to organise content online, but also how to communicate my strengths more clearly and professionally.\n\nGit and Version Control\nOne of the most important things I learned from this module was the value of Git and version control. At the beginning, Git felt mainly like a technical requirement, but through practice I came to understand how useful it is for managing progress, correcting mistakes, and keeping a clear record of development. Regular commits helped me track improvements across the homepage, project pages, navigation, and styling, and made it easier to recover earlier versions when something went wrong.\n\n\nQuarto and Website Development\nDeveloping the ePortfolio with Quarto helped me understand how website structure, content, and presentation work together. I learned how to build and manage pages, use navigation effectively, and improve usability through layout, styling, and organisation. I also learned that a professional site is not only about appearance, but also about clarity, accessibility, and how easily visitors can understand the content.\n\n\nPython and Project Development\nThrough the projects in this portfolio, I developed a stronger understanding of how Python can support analysis and visualisation. Even when the code examples were relatively simple, they helped me see the value of executable analysis compared with static screenshots or explanations alone. I became more confident in using structured logic, reading outputs, and thinking about how code can support business and analytical interpretation.\n\n\nChallenges and Problem Solving\nA major challenge during this assignment was making sure that the portfolio worked correctly as a live website while also keeping the design professional and organised. I had to solve issues related to file paths, page rendering, YAML formatting, navigation links, and layout consistency. For example, when pages disappeared from the site or Quarto failed to render, I had to identify whether the problem came from the file itself, the navbar configuration, or the output folder. This taught me to troubleshoot more systematically and to test changes carefully before publishing.\n\n\nFuture Goals\nThis ePortfolio has shown me that skills in Git, Quarto, Python, and web presentation are useful beyond this module. In the future, I want to continue improving in business analysis, finance support, and digital communication. I also want to develop stronger technical confidence in Python, SQL, and business intelligence tools. More importantly, I want to keep building a professional profile that combines analytical ability, practical learning, and effective presentation."
+  },
+  {
+    "objectID": "projects/project1_before_upgrade.html",
+    "href": "projects/project1_before_upgrade.html",
+    "title": "Project 1 — Park & Polish",
+    "section": "",
+    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
+  },
+  {
+    "objectID": "projects/project1_before_upgrade.html#overview",
+    "href": "projects/project1_before_upgrade.html#overview",
+    "title": "Project 1 — Park & Polish",
+    "section": "",
+    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
+  },
+  {
+    "objectID": "projects/project1_before_upgrade.html#reflection",
+    "href": "projects/project1_before_upgrade.html#reflection",
+    "title": "Project 1 — Park & Polish",
+    "section": "Reflection",
+    "text": "Reflection\nThis project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way."
+  },
+  {
+    "objectID": "projects/project1_before_upgrade.html#skills-gained",
+    "href": "projects/project1_before_upgrade.html#skills-gained",
+    "title": "Project 1 — Park & Polish",
+    "section": "Skills Gained",
+    "text": "Skills Gained\nThe main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis."
+  },
+  {
+    "objectID": "projects/index.html#project-directory",
+    "href": "projects/index.html#project-directory",
+    "title": "Portfolio",
+    "section": "",
+    "text": "This section presents a curated selection of academic and practical portfolio work in marketing analysis, business intelligence, and quantitative risk analysis."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html",
+    "href": "projects/project2_power_bi.html",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "Power BI\nBusiness Intelligence\nVisualisation\nDashboard design, business storytelling, and performance visualisation using Power BI.\n\n\nThis project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience.\nThis project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns.\n\n\n\nThe dashboard was designed to summarise business performance across categories and support quick comparison of key measures. I focused on selecting the most meaningful indicators, organising them into a clear layout, and presenting trends in a visually readable way. This process strengthened my understanding of how dashboard structure affects interpretation.\n\n\n\nThe Python example below demonstrates a simple category-level comparison that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This example shows how categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nKey Learning\nA key learning point from this project was that visualisation is not only about making data attractive. It is about helping users notice patterns, compare results, and make decisions more efficiently. I learned that the choice of chart, layout, and metric all influence how useful a dashboard becomes.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience.\nWorking on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html#overview",
+    "href": "projects/project2_power_bi.html#overview",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "This project focuses on business dashboard development and visual communication using Power BI. It involved presenting business performance data in a way that is clear, interactive, and suitable for decision-making. The dashboard was designed to highlight key business indicators such as sales, costs, net profit, and category performance, while also making the information visually accessible for a wider audience.\nThis project is important in my portfolio because it demonstrates my ability to move from raw business data toward organised visual insight. It also shows how data presentation plays a key role in helping people understand performance and identify patterns."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html#method",
+    "href": "projects/project2_power_bi.html#method",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "The dashboard was designed to summarise business performance across categories and support quick comparison of key measures. I focused on selecting the most meaningful indicators, organising them into a clear layout, and presenting trends in a visually readable way. This process strengthened my understanding of how dashboard structure affects interpretation."
+  },
+  {
+    "objectID": "projects/project2_power_bi.html#python-example",
+    "href": "projects/project2_power_bi.html#python-example",
+    "title": "Project 2 — Power BI",
+    "section": "",
+    "text": "The Python example below demonstrates a simple category-level comparison that supports dashboard interpretation and business reporting.\n#| echo: true #| code-fold: true #| fig-cap: “Example Python visualisation of category-level business performance”\nimport pandas as pd import matplotlib.pyplot as plt\ndata = pd.DataFrame({ “Category”: [“Travel”, “Construction”, “Electronics”, “Finance”, “Retail”], “Net_Profit”: [82, 76, -14, 58, 41] })\nplt.figure(figsize=(8, 5)) plt.bar(data[“Category”], data[“Net_Profit”]) plt.title(“Net Profit by Category”) plt.xlabel(“Category”) plt.ylabel(“Net Profit”) plt.tight_layout() plt.show() This example shows how categories can be compared visually through executable code. It supports the wider project theme of turning business data into clear and useful insight.\nKey Learning\nA key learning point from this project was that visualisation is not only about making data attractive. It is about helping users notice patterns, compare results, and make decisions more efficiently. I learned that the choice of chart, layout, and metric all influence how useful a dashboard becomes.\nReflection\nThis project helped me appreciate the value of visual storytelling in business analysis. I learned that a dashboard is not just about displaying charts, but about organising information in a way that makes insight easier to recognise and interpret. It also showed me the importance of design choices, layout, and selecting the most useful metrics for a business audience.\nWorking on this project improved my confidence in balancing analytical content with presentation quality, which is an important skill in modern business and reporting environments.\nSkills Gained\nThrough this project, I developed stronger skills in Power BI, dashboard design, visual business reporting, and data presentation. I also improved my ability to identify useful business measures and think about what information decision-makers need most. In addition, the project strengthened my sense of layout, communication, and professional presentation. These are valuable skills for business intelligence, reporting, and analytical roles where visual clarity matters."
+  },
+  {
+    "objectID": "projects/project3_before_upgrade.html",
+    "href": "projects/project3_before_upgrade.html",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk.\n\n\n\n\nidentify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning\n\n\n\n\nRisk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability.\n\n\n\n\ncritical analysis\nprofessional communication\nstructured reporting\napplied business understanding\n\n\n\n\nThis project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
+  },
+  {
+    "objectID": "projects/project3_before_upgrade.html#overview",
+    "href": "projects/project3_before_upgrade.html#overview",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project focuses on risk management principles and how organisations identify, assess, and respond to different types of risk."
+  },
+  {
+    "objectID": "projects/project3_before_upgrade.html#objectives",
+    "href": "projects/project3_before_upgrade.html#objectives",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "identify key business risks\nevaluate likelihood and impact\ndiscuss mitigation strategies\nreflect on the importance of structured risk planning"
+  },
+  {
+    "objectID": "projects/project3_before_upgrade.html#key-discussion",
+    "href": "projects/project3_before_upgrade.html#key-discussion",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "Risk management is important because it helps organisations reduce uncertainty and prepare for operational, financial, and strategic challenges. A good risk management framework improves decision making and supports long-term sustainability."
+  },
+  {
+    "objectID": "projects/project3_before_upgrade.html#skills-demonstrated",
+    "href": "projects/project3_before_upgrade.html#skills-demonstrated",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "critical analysis\nprofessional communication\nstructured reporting\napplied business understanding"
+  },
+  {
+    "objectID": "projects/project3_before_upgrade.html#reflection",
+    "href": "projects/project3_before_upgrade.html#reflection",
+    "title": "Project 3: Risk Management",
+    "section": "",
+    "text": "This project helped me understand how risk can affect decision-making and why organisations need clear frameworks to manage uncertainty effectively."
+  },
+  {
     "objectID": "projects/project1_park_polish.html",
     "href": "projects/project1_park_polish.html",
     "title": "Project 1 — Park & Polish",
     "section": "",
-    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
+    "text": "Marketing\nExcel\nSQL\nMarket analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic.\n\n\nThis project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way.\nA key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based planning, comparison logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept.\n\n\n\nTo evaluate the business idea, I focused on four areas:\n\ncustomer need and service demand\ncompetitor positioning\npricing and service structure\noperational feasibility\n\nExcel supported the organisation of service categories, simple comparisons, and planning assumptions. SQL-informed thinking also influenced the way I structured information, grouped comparisons, and considered how business data could later be queried and analysed more formally.\n\n\n\n\n\n\n\n\n\n\n\nArea\nExample Question\nBusiness Value\n\n\n\n\nCustomer demand\nWhat service would customers use most often?\nhelps shape service focus\n\n\nCompetitor review\nHow do similar businesses position themselves?\nsupports differentiation\n\n\nPricing logic\nWhich package structure is easiest to understand?\nimproves customer clarity\n\n\nOperations\nWhat resources are needed to deliver the service?\nsupports feasibility\n\n\n\n \n\n\n\nThis project taught me that a business concept becomes much stronger when it is supported by structured analysis rather than only creativity. I learned to think more carefully about market relevance, practical implementation, and how to organise information clearly for presentation.\n\n\n\nThis project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand.\nThrough this project, I gained confidence in approaching business concepts in a more practical and commercially minded way.\n\n\n\nThe main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
   },
   {
     "objectID": "projects/project1_park_polish.html#overview",
     "href": "projects/project1_park_polish.html#overview",
     "title": "Project 1 — Park & Polish",
     "section": "",
-    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
+    "text": "This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way.\nA key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based planning, comparison logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept."
+  },
+  {
+    "objectID": "projects/project1_park_polish.html#analytical-approach",
+    "href": "projects/project1_park_polish.html#analytical-approach",
+    "title": "Project 1 — Park & Polish",
+    "section": "",
+    "text": "To evaluate the business idea, I focused on four areas:\n\ncustomer need and service demand\ncompetitor positioning\npricing and service structure\noperational feasibility\n\nExcel supported the organisation of service categories, simple comparisons, and planning assumptions. SQL-informed thinking also influenced the way I structured information, grouped comparisons, and considered how business data could later be queried and analysed more formally."
+  },
+  {
+    "objectID": "projects/project1_park_polish.html#example-comparison-framework",
+    "href": "projects/project1_park_polish.html#example-comparison-framework",
+    "title": "Project 1 — Park & Polish",
+    "section": "",
+    "text": "Area\nExample Question\nBusiness Value\n\n\n\n\nCustomer demand\nWhat service would customers use most often?\nhelps shape service focus\n\n\nCompetitor review\nHow do similar businesses position themselves?\nsupports differentiation\n\n\nPricing logic\nWhich package structure is easiest to understand?\nimproves customer clarity\n\n\nOperations\nWhat resources are needed to deliver the service?\nsupports feasibility"
+  },
+  {
+    "objectID": "projects/project1_park_polish.html#key-learning",
+    "href": "projects/project1_park_polish.html#key-learning",
+    "title": "Project 1 — Park & Polish",
+    "section": "",
+    "text": "This project taught me that a business concept becomes much stronger when it is supported by structured analysis rather than only creativity. I learned to think more carefully about market relevance, practical implementation, and how to organise information clearly for presentation."
   },
   {
     "objectID": "projects/project1_park_polish.html#reflection",
     "href": "projects/project1_park_polish.html#reflection",
     "title": "Project 1 — Park & Polish",
-    "section": "Reflection",
-    "text": "Reflection\nThis project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way."
+    "section": "",
+    "text": "This project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand.\nThrough this project, I gained confidence in approaching business concepts in a more practical and commercially minded way."
   },
   {
     "objectID": "projects/project1_park_polish.html#skills-gained",
     "href": "projects/project1_park_polish.html#skills-gained",
     "title": "Project 1 — Park & Polish",
-    "section": "Skills Gained",
-    "text": "Skills Gained\nThe main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
+    "section": "",
+    "text": "The main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work."
   },
   {
     "objectID": "reflection_before_upgrade.html",

@@ -1,0 +1,25 @@
+---
+title: "Project 1 — Park & Polish"
+description: "Market analysis, structured business planning, and analytical thinking supported by Excel and SQL-informed logic."
+author: "Sophia Sufei Chen"
+date: "2025-04-20"
+image: "../images/park-1.jpg"
+categories: [Marketing, Excel, SQL]
+---
+
+## Overview
+
+This project focuses on the Park & Polish business concept and explores how a business idea can be developed through structured market analysis, service planning, and commercial positioning. The work allowed me to think about how a new business could identify market opportunities, understand competitors, and communicate value in a practical and visually organised way. A key strength of this project is that it connects creative business thinking with analytical structure. I used Excel-based thinking, planning logic, and SQL-informed reasoning to support a more evidence-based and professional approach to the business concept.
+
+::: {.project-gallery}
+![](../images/park-1.jpg){.gallery-image}
+![](../images/park-2.jpg){.gallery-image}
+:::
+
+## Reflection
+
+This project helped me strengthen my ability to connect business creativity with more structured planning and analytical thinking. I learned how important it is to move beyond an idea itself and instead assess whether it is realistic, competitive, and relevant in a real market context. I also became more aware of the importance of presenting business information clearly, because good structure and visual communication can make an idea much easier to understand. Through this project, I gained confidence in approaching business concepts in a more practical and commercially minded way.
+
+## Skills Gained
+
+The main skills I developed through this project include market analysis, competitor review, business planning, and visual presentation. I also strengthened my confidence in using Excel and structured analytical logic to support business ideas. In addition, the project improved my ability to organise information, identify key findings, and communicate insights in a professional way. These skills are directly relevant to future roles in business analysis, planning, and marketing-related work.
