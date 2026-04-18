@@ -63,6 +63,7 @@ plt.ylabel("Risk Score")
 plt.xticks(rotation=20, ha="right")
 plt.tight_layout()
 plt.show()
+```
 
 This chart demonstrates how risks can be ranked visually once likelihood and impact have been assessed. It supports prioritisation by making higher-risk areas easier to identify.
 
