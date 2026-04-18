@@ -22,10 +22,6 @@ about:
 
 Aspiring Business Analyst & Marketing Planner | Final Year Business Studies Student at DCU | Accounting Assistant Intern | ACCA Student | Chinese & English
 
-### Updated Homepage Version
-
-This homepage has been updated for the final submission of my ePortfolio.
-
 I am a final year Business Studies student at Dublin City University, specialising in Business Analytics and Marketing Planning. I am currently working as an Accounting Assistant Intern at PTB Accounting LTD, where I am gaining practical experience in accounting support, financial documentation, and day-to-day business operations.
 
 In addition to my academic studies, I am also pursuing ACCA, which is helping me strengthen my knowledge of accounting, finance, and professional practice. My education and internship experience have helped me build a solid foundation in business analysis, commercial awareness, and problem-solving.
@@ -34,7 +30,7 @@ I am interested in opportunities in business analysis, marketing, finance suppor
 
 ::: {.hero-buttons}
 [View Portfolio](projects/index.qmd){.primary-btn}
-[View CV](cv.qmd){.secondary-btn}
+[Download CV](cv.pdf){.secondary-btn target="_blank"}
 [More About Me](about_more.qmd){.secondary-btn}
 :::
 
@@ -89,7 +85,7 @@ Commercial Awareness
 ## Certs {#certs}
 
 ::: {.certs-intro}
-I am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools.
+I am committed to continuous online learning and professional self-development. Through the Kubicle platform, I have been strengthening my practical skills in business software and digital tools. These certificates reflect my willingness to keep improving my technical confidence, workplace readiness, and professional communication beyond the classroom.
 :::
 
 ::: {.certs-stack}
@@ -102,7 +98,7 @@ I am committed to continuous online learning and professional self-development. 
 :::
 
 ::: {.cert-right}
-This certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills.
+This certificate reflects my continued development in Excel and my interest in improving practical spreadsheet, reporting, and business analysis skills through independent online learning.
 
 [Open Certificate PDF](images/Kubicle-Diploma-Excel.pdf){.primary-btn target="_blank"}
 :::
@@ -116,7 +112,7 @@ This certificate reflects my continued development in Excel and my interest in i
 :::
 
 ::: {.cert-right}
-This certificate supports my professional development in document preparation, communication, and workplace presentation.
+This certificate supports my professional development in document preparation, communication, and workplace presentation, showing my commitment to building useful office and business support skills.
 
 [Open Certificate PDF](images/Kubicle-Diploma-Word.pdf){.primary-btn target="_blank"}
 :::
@@ -130,7 +126,7 @@ This certificate supports my professional development in document preparation, c
 :::
 
 ::: {.cert-right}
-This certificate demonstrates my effort to strengthen database and query skills through structured online learning.
+This certificate demonstrates my effort to strengthen database and query skills through structured online learning, supporting my longer-term development in analytics and data-focused work.
 
 [Open Certificate PDF](images/Kubicle-Diploma-SQL.pdf){.primary-btn target="_blank"}
 :::
@@ -145,7 +141,7 @@ This certificate demonstrates my effort to strengthen database and query skills 
 
 ### Selected Portfolio Work
 
-This portfolio highlights three main projects that reflect different dimensions of my academic and professional development: marketing analysis, business intelligence, and quantitative risk analysis.
+This portfolio highlights three main projects that reflect different dimensions of my academic and professional development: marketing analysis, business intelligence, and quantitative risk analysis. Together, they show how I combine structured thinking, analytical tools, and professional presentation.
 
 The projects demonstrate my experience with Excel, SQL-informed logic, Power BI dashboard storytelling, and quantitative analysis using financial and business data.
 
@@ -206,6 +202,7 @@ This English learning video helps me strengthen listening, vocabulary, and commu
 :::
 
 :::
+
 
 ::: {.custom-footer #contact}
 ::: {.footer-grid}
