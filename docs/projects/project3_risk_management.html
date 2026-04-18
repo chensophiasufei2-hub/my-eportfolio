@@ -256,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="python-illustration" class="level2">
 <h2 class="anchored" data-anchor-id="python-illustration">Python Illustration</h2>
-<p>#| echo: true #| code-fold: true #| fig-cap: “Illustrative risk score comparison”</p>
+<p>#| echo: true #| code-fold: false #| fig-cap: “Illustrative risk score comparison” #| warning: false #| message: false</p>
 <p>import pandas as pd import matplotlib.pyplot as plt</p>
 <p>risk_data = pd.DataFrame({ “Risk”: [“Cash flow pressure”, “Supply delay”, “Data error”, “Staff shortage”, “Reputational issue”], “Risk_Score”: [20, 12, 12, 9, 10] })</p>
 <p>plt.figure(figsize=(9, 5)) plt.bar(risk_data[“Risk”], risk_data[“Risk_Score”]) plt.title(“Illustrative Business Risk Scores”) plt.xlabel(“Risk Type”) plt.ylabel(“Risk Score”) plt.xticks(rotation=20, ha=“right”) plt.tight_layout() plt.show()</p>

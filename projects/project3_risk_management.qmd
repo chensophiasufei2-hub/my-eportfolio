@@ -1,6 +1,7 @@
 ---
 title: "Project 3: Risk Management"
 format: html
+jupyter: python3
 ---
 
 # Project 3: Risk Management
@@ -41,8 +42,10 @@ The table below presents a simple example of how business risks can be assessed 
 
 ```{python}
 #| echo: true
-#| code-fold: true
+#| code-fold: false
 #| fig-cap: "Illustrative risk score comparison"
+#| warning: false
+#| message: false
 
 import pandas as pd
 import matplotlib.pyplot as plt
